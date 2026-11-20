@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "role_id": "software-engineer",
+  "title": "Software Engineer",
+  "level": "mid",
+  "mission": "Build and maintain reliable software that does what the business needs, and keep it understandable.",
+  "outcomes_90_days": [
+    "Ship the first small change to production with a review in the first two weeks.",
+    "Own one feature from request to release, including tests and notes.",
+    "Fix a set of the oldest real bugs and write down the cause for each.",
+    "Add or improve automated tests where a recent bug happened."
+  ],
+  "criteria": [
+    {
+      "id": "coding_ability",
+      "name": "Writing working code",
+      "type": "must",
+      "weight": 24,
+      "min_level": 3,
+      "what_good_looks_like": "Writes clear code that works, handles edge cases and can explain it.",
+      "evidence_needed": [
+        "Code sample or repository shows readable code",
+        "Explains trade offs",
+        "Handles errors and inputs carefully"
+      ],
+      "keywords": [
+        "python",
+        "javascript",
+        "typescript",
+        "java",
+        "api",
+        "git",
+        "pull request",
+        "refactor"
+      ],
+      "levels": [
+        "0 no evidence of writing working code",
+        "1 names writing working code but gives no example",
+        "2 writing working code done with guidance or at small scale",
+        "3 writing working code done independently with a clear result",
+        "4 writing working code with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows writing working code with real examples"
+    },
+    {
+      "id": "problem_decomposition",
+      "name": "Breaking down problems",
+      "type": "must",
+      "weight": 18,
+      "min_level": 2,
+      "what_good_looks_like": "Splits a large problem into small parts, asks questions first and tests as they go.",
+      "evidence_needed": [
+        "Describes a hard problem and how it was split",
+        "Asks about the requirement before coding",
+        "Uses small steps and checks"
+      ],
+      "keywords": [
+        "design",
+        "architecture",
+        "debugging",
+        "root cause",
+        "estimate",
+        "tradeoffs",
+        "requirements",
+        "plan"
+      ],
+      "levels": [
+        "0 no evidence of breaking down problems",
+        "1 names breaking down problems but gives no example",
+        "2 breaking down problems done with guidance or at small scale",
+        "3 breaking down problems done independently with a clear result",
+        "4 breaking down problems with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows breaking down problems with real examples"
+    },
+    {
+      "id": "testing_and_quality",
+      "name": "Testing and quality",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Writes tests, reviews code and keeps the build passing.",
+      "evidence_needed": [
+        "Names tests written and what they covered",
+        "Takes part in code review",
+        "Uses CI"
+      ],
+      "keywords": [
+        "unit tests",
+        "integration tests",
+        "ci",
+        "code review",
+        "pytest",
+        "jest",
+        "coverage",
+        "pipeline"
+      ],
+      "levels": [
+        "0 no evidence of testing and quality",
+        "1 names testing and quality but gives no example",
+        "2 testing and quality done with guidance or at small scale",
+        "3 testing and quality done independently with a clear result",
+        "4 testing and quality with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows testing and quality with real examples"
+    },
+    {
+      "id": "communication_and_docs",
+      "name": "Communication and documentation",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Writes clear pull request notes and short docs, and speaks plainly to non engineers.",
+      "evidence_needed": [
+        "Examples of docs or READMEs",
+        "Explains a technical choice simply",
+        "Writes helpful commit messages"
+      ],
+      "keywords": [
+        "documentation",
+        "readme",
+        "commit message",
+        "design doc",
+        "explained",
+        "stakeholders",
+        "wiki",
+        "comments"
+      ],
+      "levels": [
+        "0 no evidence of communication and documentation",
+        "1 names communication and documentation but gives no example",
+        "2 communication and documentation done with guidance or at small scale",
+        "3 communication and documentation done independently with a clear result",
+        "4 communication and documentation with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows communication and documentation with real examples"
+    },
+    {
+      "id": "security_awareness",
+      "name": "Security habits",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Keeps secrets out of code, validates input and updates dependencies.",
+      "evidence_needed": [
+        "Names practices such as environment variables and input checks",
+        "Example of fixing a vulnerability",
+        "Asks about data sensitivity"
+      ],
+      "keywords": [
+        "security",
+        "secrets",
+        "authentication",
+        "validation",
+        "owasp",
+        "dependencies",
+        "encryption",
+        "permissions"
+      ],
+      "levels": [
+        "0 no evidence of security habits",
+        "1 names security habits but gives no example",
+        "2 security habits done with guidance or at small scale",
+        "3 security habits done independently with a clear result",
+        "4 security habits with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows security habits with real examples"
+    },
+    {
+      "id": "learning_and_ownership",
+      "name": "Learning and ownership",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Picks up new tools, owns problems after release and learns from outages.",
+      "evidence_needed": [
+        "Example of learning a new tool for a job",
+        "On call or support experience",
+        "Writes post mortems"
+      ],
+      "keywords": [
+        "learned",
+        "ownership",
+        "on call",
+        "post mortem",
+        "monitoring",
+        "production",
+        "maintenance",
+        "open source"
+      ],
+      "levels": [
+        "0 no evidence of learning and ownership",
+        "1 names learning and ownership but gives no example",
+        "2 learning and ownership done with guidance or at small scale",
+        "3 learning and ownership done independently with a clear result",
+        "4 learning and ownership with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows learning and ownership with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "copies_code_unclear",
+      "description": "Cannot explain code they present as their own work.",
+      "job_related_reason": "Work samples must show real ability, and the team needs engineers who understand the code."
+    }
+  ],
+  "work_sample": {
+    "title": "Small feature with tests",
+    "brief": "You get a small fictional repository (a booking list API) and a ticket asking for one feature and one bug fix. Make the change, add tests and write a short note describing what you did and what you would check next. You may use any tools you normally use, including AI; say how.",
+    "time_limit_minutes": 90,
+    "how_to_score": "Score working change, tests, clean diff, a clear note, honest description of AI use, and questions asked about unclear parts. Run the tests, not only read."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "coding_ability",
+      "question": "Tell me about code you wrote that you are proud of. What would you change now?",
+      "good_answer_signs": [
+        "Names a specific choice and a limit",
+        "Shows growth"
+      ],
+      "weak_answer_signs": [
+        "Cannot explain how it works",
+        "Only describes the tools used"
+      ]
+    },
+    {
+      "criterion_id": "problem_decomposition",
+      "question": "A bug is reported that you cannot reproduce. What do you do?",
+      "good_answer_signs": [
+        "Collects logs, narrows the cause, asks for steps",
+        "Adds a test once found"
+      ],
+      "weak_answer_signs": [
+        "Closes it",
+        "Guesses a fix"
+      ]
+    },
+    {
+      "criterion_id": "testing_and_quality",
+      "question": "What do you test, and what do you leave untested?",
+      "good_answer_signs": [
+        "Explains risk based choices",
+        "Uses tests to catch real regressions"
+      ],
+      "weak_answer_signs": [
+        "Tests nothing",
+        "Wants every line tested without reasons"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Code samples they cannot explain",
+    "Dismisses testing and review as slow",
+    "Blames every outage on someone else",
+    "Secrets or keys committed to their public repositories"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Public code repositories and contributions",
+    "Engineering communities and meetups",
+    "Referrals from engineers you trust",
+    "Freelance platforms for contract to hire"
+  ],
+  "pay_research_hint": "Compare salary or contract rates from several current postings and a published developer pay survey for your region and level. Include remote ranges if you hire remote.",
+  "automation_note": "AI can write first drafts of code, tests and docs. A person must review changes, own architecture and security, and be accountable for what ships."
+}

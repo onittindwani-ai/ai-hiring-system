@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "role_id": "backend-engineer",
+  "title": "Backend Engineer",
+  "level": "mid",
+  "mission": "Build and maintain the booking, scheduling and invoicing system that Northlight's crews and customers use every day.",
+  "outcomes_90_days": [
+    "Read the existing code and fix the most painful open bugs in the first month",
+    "Make double booking of a crew member impossible in the data layer, not only in the screen",
+    "Add tests around booking, invoicing and payment handling before changing them",
+    "Set up simple monitoring so the team knows about a failure before a customer does",
+    "Ship one customer visible improvement agreed with the office team"
+  ],
+  "criteria": [
+    {
+      "id": "backend_development",
+      "name": "Backend development",
+      "type": "must",
+      "weight": 25,
+      "min_level": 3,
+      "what_good_looks_like": "Has built and owned server side code in a mainstream language and framework, including real features used by real people.",
+      "evidence_needed": ["A named language and framework with what they built", "Features shipped and who used them"],
+      "keywords": ["python", "node", "backend", "api", "server", "framework", "django", "flask", "fastapi", "express"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows the person building and owning server side code in production, with real examples"
+    },
+    {
+      "id": "database_design",
+      "name": "Database design",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Designs tables and constraints that fit the data, writes sound queries and changes a live schema safely.",
+      "evidence_needed": ["A schema they designed or changed", "Migrations, indexes or constraints used for a reason"],
+      "keywords": ["sql", "postgres", "postgresql", "mysql", "schema", "migrations", "index", "indexes", "transactions", "query"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows database design and safe schema changes with real examples"
+    },
+    {
+      "id": "api_and_integrations",
+      "name": "APIs and integrations",
+      "type": "must",
+      "weight": 15,
+      "min_level": 2,
+      "what_good_looks_like": "Has designed or consumed web APIs and connected outside services such as payments, text messages or calendars.",
+      "evidence_needed": ["An integration they built and what went wrong or right", "Webhook or API design work"],
+      "keywords": ["rest", "webhook", "webhooks", "integration", "payment", "sms", "calendar", "oauth", "third party", "api"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows building web APIs or integrating outside services, with real examples"
+    },
+    {
+      "id": "testing_and_quality",
+      "name": "Testing and quality",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Writes automated tests, takes part in code review and keeps changes small and safe.",
+      "evidence_needed": ["Test types written", "Review or CI habits"],
+      "keywords": ["tests", "unit tests", "pytest", "integration tests", "code review", "ci", "coverage", "linting", "tdd"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows automated testing and review habits with real examples"
+    },
+    {
+      "id": "deployment_and_operations",
+      "name": "Deployment and operations",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Can ship to a live server, roll back, and watch logs and uptime without a large team.",
+      "evidence_needed": ["How they deploy", "Monitoring or logging they set up"],
+      "keywords": ["deploy", "deployment", "docker", "monitoring", "logs", "uptime", "rollback", "aws", "cloud", "pipeline"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows deploying and running a service, including monitoring and rollback"
+    },
+    {
+      "id": "production_debugging",
+      "name": "Production debugging",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Finds the root cause of a live problem with logs and data, fixes it and prevents a repeat.",
+      "evidence_needed": ["A specific incident and the cause", "What changed afterwards"],
+      "keywords": ["debug", "debugged", "incident", "bug", "root cause", "outage", "on call", "fixed", "postmortem"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows tracking down and fixing a live problem to its root cause"
+    },
+    {
+      "id": "communication_with_non_technical",
+      "name": "Working with non technical people",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Turns office and crew needs into clear requirements and explains trade offs in plain words.",
+      "evidence_needed": ["A time they explained a trade off", "Demos or documentation for non technical users"],
+      "keywords": ["explained", "non technical", "stakeholder", "documented", "owner", "customers", "requirements", "demo", "trade off", "support team"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows explaining technical choices to non technical colleagues, with real examples"
+    }
+  ],
+  "gates": [
+    {"id": "work_authorization", "question": "Can the person legally work in the country of the role?", "kind": "hard"}
+  ],
+  "deal_breakers": [],
+  "work_sample": {
+    "title": "No double booking",
+    "brief": "Describe in a page, with a small table design and a few lines of code or pseudocode, how you would make sure one technician can never be booked for two overlapping jobs, even if two office staff click at the same moment.",
+    "time_limit_minutes": 60,
+    "how_to_score": "Score for a data level guarantee (constraint or transaction), handling of the failure case and clear writing. Do not score code style or the language chosen."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "backend_development",
+      "question": "Walk me through the most important feature you built that real people used. What would you change now?",
+      "good_answer_signs": ["Clear ownership and choices", "Honest list of what they would change"],
+      "weak_answer_signs": ["Only says we", "No detail on their part"]
+    },
+    {
+      "criterion_id": "database_design",
+      "question": "How would you add a new required column to a table with live data and no downtime?",
+      "good_answer_signs": ["Adds nullable first, backfills, then enforces", "Mentions testing on a copy"],
+      "weak_answer_signs": ["Runs one big change on the live table", "No rollback plan"]
+    },
+    {
+      "criterion_id": "production_debugging",
+      "question": "Tell me about a live bug that was hard to find. What did you look at first?",
+      "good_answer_signs": ["Logs and data before guessing", "A fix plus a guard against a repeat"],
+      "weak_answer_signs": ["Restarted it and moved on", "Cannot describe the cause"]
+    },
+    {
+      "criterion_id": "api_and_integrations",
+      "question": "A payment provider sends the same webhook twice. What happens in your system?",
+      "good_answer_signs": ["Uses an idempotency key or stored event id", "Logs and alerts on odd events"],
+      "weak_answer_signs": ["Has not thought about duplicates", "Charges or books twice"]
+    }
+  ],
+  "red_flags": [
+    "Long technology lists with no sentence about what was built",
+    "Cannot name a bug they personally fixed",
+    "Claims a senior title but describes only small edits"
+  ],
+  "sourcing_channels": ["Local and remote job boards the owner uses", "Referrals from other small business owners", "Open source and portfolio search through public web search", "Bootcamp and community college alumni groups"],
+  "pay_research_hint": "Look at published pay ranges for backend and web developer roles in your region and at similar company sizes. Ask a technical advisor or a local developer group what a fair range looks like.",
+  "automation_note": "An AI coding assistant can speed up routine code and tests. Someone still has to own the system, decide trade offs and answer when a live problem hits."
+}

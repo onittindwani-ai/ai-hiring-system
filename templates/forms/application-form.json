@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "title": "Apply for {{role_title}} at {{company_name}}",
+  "description": "Thank you for applying. This form takes about {{apply_minutes}} minutes. We read every application ourselves and look at job related answers first. Your resume and answers are redacted (name, contact details and links removed) before they are scored, and a person makes every decision. Need an adjustment to take part? Write to {{contact_email}}.",
+  "notes_for_owner": [
+    "Ask only what you need to judge the job. Every question must map to a scorecard criterion or to logistics (contact, location rule, right to work, start date).",
+    "Never add questions about age, date of birth, gender, photo, marital status, family plans, nationality, religion, health or disability.",
+    "Replace the 3 role specific slots with questions from templates/forms/screening-questions.md that match your scorecard.",
+    "Do not mark any answer as an automatic reject. A person reviews every application.",
+    "Check local rules on what you may ask and how long you may keep the data. Not legal advice."
+  ],
+  "sections": [
+    {
+      "id": "contact",
+      "title": "How to reach you",
+      "description": "Used only to contact you about this role.",
+      "questions": [
+        {
+          "id": "full_name",
+          "type": "short_text",
+          "label": "Full name",
+          "required": true,
+          "purpose": "contact only; removed before scoring"
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "Email address",
+          "required": true,
+          "help": "We will use this to reply to you.",
+          "purpose": "contact only; removed before scoring"
+        },
+        {
+          "id": "phone",
+          "type": "short_text",
+          "label": "Phone number (optional)",
+          "required": false,
+          "help": "Only if you want a call.",
+          "purpose": "contact only; removed before scoring"
+        },
+        {
+          "id": "location",
+          "type": "short_text",
+          "label": "City and country where you work from",
+          "required": false,
+          "help": "We ask only for time zone and logistics.",
+          "purpose": "logistics"
+        }
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Practical questions",
+      "description": "A few simple practical checks.",
+      "questions": [
+        {
+          "id": "work_authorization",
+          "type": "multiple_choice",
+          "label": "Are you legally able to work in {{country}} for this role?",
+          "required": true,
+          "options": [
+            "Yes",
+            "No",
+            "I am not sure, I would like to talk about it"
+          ],
+          "purpose": "gate: work_authorization"
+        },
+        {
+          "id": "schedule_ok",
+          "type": "multiple_choice",
+          "label": "Can you work the schedule described in the job post ({{schedule_summary}})?",
+          "required": true,
+          "options": [
+            "Yes",
+            "Mostly, with a small change",
+            "No"
+          ],
+          "purpose": "gate: schedule fit"
+        },
+        {
+          "id": "start_date",
+          "type": "short_text",
+          "label": "When could you start?",
+          "required": false,
+          "help": "A date or 'in 4 weeks' is fine.",
+          "purpose": "logistics"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "Your work",
+      "description": "Show us what you have done. A resume is welcome, and so are links to real work.",
+      "questions": [
+        {
+          "id": "resume",
+          "type": "file_upload",
+          "label": "Resume or a short summary of your work (PDF, DOC or text)",
+          "required": true,
+          "help": "If you do not have a resume, write a short summary instead in the next question.",
+          "purpose": "evidence for scorecard criteria"
+        },
+        {
+          "id": "work_summary",
+          "type": "paragraph",
+          "label": "In your own words: what is the work you are proudest of that is closest to this job?",
+          "required": false,
+          "help": "A few sentences about what you did and what happened.",
+          "purpose": "evidence for scorecard criteria"
+        },
+        {
+          "id": "work_links",
+          "type": "url",
+          "label": "A link to real work, such as a portfolio, code, writing or a project (optional)",
+          "required": false,
+          "purpose": "evidence for scorecard criteria"
+        }
+      ]
+    },
+    {
+      "id": "role_questions",
+      "title": "About this role",
+      "description": "Three short questions about the work itself.",
+      "questions": [
+        {
+          "id": "role_q1",
+          "type": "paragraph",
+          "label": "{{role_question_1}}",
+          "required": true,
+          "help": "Plain words are fine. Real examples are best.",
+          "purpose": "slot: replace with a question from the screening bank, maps to a must criterion"
+        },
+        {
+          "id": "role_q2",
+          "type": "paragraph",
+          "label": "{{role_question_2}}",
+          "required": true,
+          "purpose": "slot: replace with a question from the screening bank, maps to a must criterion"
+        },
+        {
+          "id": "role_q3",
+          "type": "paragraph",
+          "label": "{{role_question_3}}",
+          "required": false,
+          "purpose": "slot: replace with a question from the screening bank, maps to a criterion"
+        }
+      ]
+    },
+    {
+      "id": "consent",
+      "title": "Privacy and consent",
+      "description": "We use your information only for this hiring process. We keep it for {{retention_period}} after the decision and then delete it. You can ask us to see, correct or delete it at any time by writing to {{contact_email}}. Who sees it: {{who_sees_it}}. Some of the review uses software to sort and summarize answers, but a person reads the results and makes every decision. Not legal advice: have your privacy notice checked for your region.",
+      "questions": [
+        {
+          "id": "consent_privacy",
+          "type": "multiple_choice",
+          "label": "I have read this notice and agree that {{company_name}} may use my application for this hiring process.",
+          "required": true,
+          "options": [
+            "I agree",
+            "I do not agree"
+          ],
+          "purpose": "consent",
+          "help": "If you choose 'I do not agree', we cannot use your application."
+        },
+        {
+          "id": "consent_keep_warm",
+          "type": "multiple_choice",
+          "label": "Optional: you may keep my details for {{retention_period_long}} so you can contact me about similar roles.",
+          "required": false,
+          "options": [
+            "Yes, keep my details",
+            "No, delete them after this process"
+          ],
+          "purpose": "optional consent for future roles"
+        }
+      ]
+    },
+    {
+      "id": "equal_opportunity",
+      "title": "Making the process work for you (optional)",
+      "description": "We welcome applicants of all backgrounds. Anything you write here is not used for scoring and is not shown to the people who score applications. It is used only to adjust the process (for example a different format or more time).",
+      "questions": [
+        {
+          "id": "adjustments",
+          "type": "paragraph",
+          "label": "Is there anything that would help the process work for you? (optional)",
+          "required": false,
+          "help": "For example: extra time, a written format, an accessible meeting room.",
+          "purpose": "not used for scoring"
+        }
+      ]
+    }
+  ]
+}

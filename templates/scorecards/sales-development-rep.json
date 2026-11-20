@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "role_id": "sales-development-rep",
+  "title": "Sales Development Rep",
+  "level": "entry",
+  "mission": "Start enough good first conversations that the sales team always has qualified meetings to run.",
+  "outcomes_90_days": [
+    "Reach a steady weekly count of outbound conversations that the team agrees on, with every prospect logged in the CRM.",
+    "Book qualified meetings at a rate the team can compare week to week, with a short written reason for each.",
+    "Keep a clean list: no duplicate contacts, every opt out honored the same day.",
+    "Hand over each meeting with notes the account executive can use without asking questions."
+  ],
+  "criteria": [
+    {
+      "id": "outbound_activity",
+      "name": "Outbound prospecting experience",
+      "type": "must",
+      "weight": 22,
+      "min_level": 2,
+      "what_good_looks_like": "Has contacted strangers by email, phone or message on a regular schedule and can describe what they sent and what happened.",
+      "evidence_needed": [
+        "Names the channels used and a typical weekly volume",
+        "Describes a reply rate or meeting count with how it was measured",
+        "Gives an example of a message they changed after poor results"
+      ],
+      "keywords": [
+        "cold email",
+        "cold call",
+        "outbound",
+        "prospecting",
+        "sequence",
+        "meetings booked",
+        "cadence",
+        "linkedin outreach"
+      ],
+      "levels": [
+        "0 no evidence of outbound prospecting",
+        "1 names outbound prospecting but gives no example",
+        "2 outbound prospecting done with guidance or at small scale",
+        "3 outbound prospecting done independently with a clear result",
+        "4 outbound prospecting with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows outbound prospecting with real examples"
+    },
+    {
+      "id": "written_communication",
+      "name": "Clear short writing",
+      "type": "must",
+      "weight": 18,
+      "min_level": 2,
+      "what_good_looks_like": "Writes a first message that is short, specific to the reader and easy to answer, with no filler.",
+      "evidence_needed": [
+        "Writing sample or answer text is short and has one clear ask",
+        "Specific detail about the reader appears in the sample",
+        "No spelling errors that change meaning"
+      ],
+      "keywords": [
+        "email",
+        "copywriting",
+        "subject line",
+        "message",
+        "wrote",
+        "templates",
+        "personalized",
+        "follow up"
+      ],
+      "levels": [
+        "0 no evidence of clear short writing",
+        "1 names clear short writing but gives no example",
+        "2 clear short writing done with guidance or at small scale",
+        "3 clear short writing done independently with a clear result",
+        "4 clear short writing with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows clear short writing with real examples"
+    },
+    {
+      "id": "persistence_follow_up",
+      "name": "Follow up and persistence",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Keeps a system for follow ups and keeps going after silence or a no, while staying polite and respecting opt outs.",
+      "evidence_needed": [
+        "Describes a follow up routine with timing",
+        "Gives an example of winning a reply after several touches",
+        "Mentions stopping when asked"
+      ],
+      "keywords": [
+        "follow up",
+        "follow-up",
+        "persistence",
+        "touches",
+        "reminder",
+        "opt out",
+        "second attempt",
+        "revive"
+      ],
+      "levels": [
+        "0 no evidence of follow up and persistence",
+        "1 names follow up and persistence but gives no example",
+        "2 follow up and persistence done with guidance or at small scale",
+        "3 follow up and persistence done independently with a clear result",
+        "4 follow up and persistence with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows follow up and persistence with real examples"
+    },
+    {
+      "id": "research_personalization",
+      "name": "Prospect research",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Spends a few minutes finding one true, relevant fact about a prospect before writing, never invents one.",
+      "evidence_needed": [
+        "Describes where they look for facts",
+        "Example of a fact used and why it mattered",
+        "Mentions checking facts before using them"
+      ],
+      "keywords": [
+        "research",
+        "linkedin",
+        "company website",
+        "news",
+        "trigger",
+        "icp",
+        "account list",
+        "personalization"
+      ],
+      "levels": [
+        "0 no evidence of prospect research",
+        "1 names prospect research but gives no example",
+        "2 prospect research done with guidance or at small scale",
+        "3 prospect research done independently with a clear result",
+        "4 prospect research with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows prospect research with real examples"
+    },
+    {
+      "id": "crm_and_tools",
+      "name": "CRM and tool habits",
+      "type": "nice",
+      "weight": 12,
+      "what_good_looks_like": "Logs activity the same day and can work in a CRM and a sequencing or calling tool.",
+      "evidence_needed": [
+        "Names a CRM or sheet used and what was logged",
+        "Mentions list hygiene or duplicates",
+        "Mentions reporting numbers weekly"
+      ],
+      "keywords": [
+        "crm",
+        "hubspot",
+        "salesforce",
+        "pipedrive",
+        "spreadsheet",
+        "log",
+        "dialer",
+        "tracking"
+      ],
+      "levels": [
+        "0 no evidence of CRM and tool habits",
+        "1 names CRM and tool habits but gives no example",
+        "2 CRM and tool habits done with guidance or at small scale",
+        "3 CRM and tool habits done independently with a clear result",
+        "4 CRM and tool habits with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows CRM and tool habits with real examples"
+    },
+    {
+      "id": "coachability",
+      "name": "Learns from feedback",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Takes feedback on calls and messages, changes behavior and can say what changed.",
+      "evidence_needed": [
+        "Example of feedback received and what they did next",
+        "Asks for call recordings or reviews",
+        "Sets small weekly goals for themselves"
+      ],
+      "keywords": [
+        "feedback",
+        "coaching",
+        "improved",
+        "role play",
+        "call review",
+        "learned",
+        "practice",
+        "goal"
+      ],
+      "levels": [
+        "0 no evidence of learning from feedback",
+        "1 names learning from feedback but gives no example",
+        "2 learning from feedback done with guidance or at small scale",
+        "3 learning from feedback done independently with a clear result",
+        "4 learning from feedback with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows learning from feedback with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    },
+    {
+      "id": "hours_fit",
+      "question": "Can the person work the hours the role needs, including any overlap with the prospects' time zone?",
+      "kind": "soft"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "ignores_opt_out",
+      "description": "Says they would keep contacting someone who asked to stop.",
+      "job_related_reason": "Outreach must respect opt outs to follow the law and protect the company name."
+    }
+  ],
+  "work_sample": {
+    "title": "Write a first message and a follow up",
+    "brief": "You get a one page description of our service and a fictional prospect profile (public facts only). Write one cold email and one follow up three days later. Then list in 5 lines how you would find and check 10 more prospects like this one.",
+    "time_limit_minutes": 45,
+    "how_to_score": "Score clear ask, one true specific detail from the profile, no invented facts, short length, a respectful follow up, and a realistic research method. Reply STOP line present counts as a plus."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "outbound_activity",
+      "question": "Walk me through a normal week of outreach in your last role. How many people, which channels, what did you track?",
+      "good_answer_signs": [
+        "Gives actual weekly numbers and channels",
+        "Names what they measured and what they changed"
+      ],
+      "weak_answer_signs": [
+        "Only says they did a lot of outreach",
+        "Cannot name any number"
+      ]
+    },
+    {
+      "criterion_id": "persistence_follow_up",
+      "question": "Tell me about a prospect who did not reply. What did you do over the next two weeks?",
+      "good_answer_signs": [
+        "Spaced touches with different angles",
+        "Stopped politely when it was clear"
+      ],
+      "weak_answer_signs": [
+        "Sent the same message repeatedly",
+        "Gave up after one try"
+      ]
+    },
+    {
+      "criterion_id": "written_communication",
+      "question": "Here is a message that got no replies. What would you change and why?",
+      "good_answer_signs": [
+        "Cuts length and sharpens one ask",
+        "Adds a specific reader detail"
+      ],
+      "weak_answer_signs": [
+        "Adds more features to the text",
+        "Only changes the greeting"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Cannot explain any numbers from past outreach",
+    "Talks only about volume, never about replies or meetings",
+    "Message samples with copied or invented personal details",
+    "Blames leads or the product for every miss"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Employee referrals",
+    "Local colleges and bootcamps with career offices",
+    "Sales communities and groups",
+    "Former customer service or retail workers who like talking to people"
+  ],
+  "pay_research_hint": "Check recent postings for the same title in your city or region on two boards, and a published pay survey for your country. Compare base pay and the usual commission split. Use ranges, not one number.",
+  "automation_note": "AI can find and draft first messages from public facts and sort replies, so a person focuses on the conversations. A tool should never send without a human approving the list and the text."
+}

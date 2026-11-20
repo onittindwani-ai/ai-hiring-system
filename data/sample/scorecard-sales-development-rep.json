@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "role_id": "sales-development-rep",
+  "title": "Sales Development Rep",
+  "level": "entry",
+  "mission": "Turn new leads and cold contacts into booked estimate visits for Northlight's cleaning and repair crews.",
+  "outcomes_90_days": [
+    "Contact every new lead within one working day, with a call and a short message",
+    "Book a steady number of estimate visits each week against a target agreed with the manager in week 2",
+    "Run a written follow up cadence so no lead goes quiet without a decision",
+    "Keep the lead sheet complete: last contact, next step and outcome for every lead",
+    "Reach out to property managers and realtors with a short, honest first message"
+  ],
+  "criteria": [
+    {
+      "id": "outbound_experience",
+      "name": "Outbound experience",
+      "type": "must",
+      "weight": 25,
+      "min_level": 2,
+      "what_good_looks_like": "The person has contacted people who did not expect to hear from them, by phone, text, email or in person, and booked something as a result.",
+      "evidence_needed": ["Cold calls, cold emails or door knocking with a described routine", "A result such as appointments booked or customers won back"],
+      "keywords": ["cold call", "cold calls", "cold email", "outbound", "prospecting", "dials", "canvassing", "door to door", "lead list", "sequence"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows outbound outreach to people who did not ask to be contacted, with real examples and results"
+    },
+    {
+      "id": "written_communication",
+      "name": "Written communication",
+      "type": "must",
+      "weight": 15,
+      "min_level": 2,
+      "what_good_looks_like": "Short, clear messages that get replies. The person can show what they wrote or what it achieved.",
+      "evidence_needed": ["Templates, texts or emails they wrote", "A reply rate or a story of a message that worked"],
+      "keywords": ["wrote", "email", "emails", "copy", "message", "messages", "templates", "text message", "reply", "replies"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows the person writing clear customer messages that earned replies, with real examples"
+    },
+    {
+      "id": "follow_up_discipline",
+      "name": "Follow up discipline",
+      "type": "must",
+      "weight": 15,
+      "min_level": 2,
+      "what_good_looks_like": "Leads are followed up on a plan and on the promised date, not when the person remembers.",
+      "evidence_needed": ["A described cadence or reminder habit", "Callbacks made on the agreed date"],
+      "keywords": ["follow up", "followed up", "persistent", "no show", "rebook", "reminder", "reminders", "cadence", "touches", "callback"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows a reliable follow up routine with dates and next steps, with real examples"
+    },
+    {
+      "id": "objection_handling",
+      "name": "Objection handling",
+      "type": "nice",
+      "weight": 15,
+      "what_good_looks_like": "Hears a no or a worry, stays calm, answers it honestly and offers a small next step.",
+      "evidence_needed": ["A named objection and what they said back", "A script or reply they improved"],
+      "keywords": ["objection", "objections", "not interested", "too expensive", "price", "pushback", "rebuttal", "hesitant", "i already have someone"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows calm, honest handling of customer objections, with real examples"
+    },
+    {
+      "id": "crm_and_tools",
+      "name": "CRM and tools",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Every contact is written down in a sheet or CRM with a next step, and the record is kept clean.",
+      "evidence_needed": ["A named tool or sheet", "A habit such as logging every call"],
+      "keywords": ["crm", "spreadsheet", "logged", "dashboard", "tracker", "calendar", "pipeline", "dialer"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows careful record keeping of contacts and next steps in a CRM or sheet"
+    },
+    {
+      "id": "local_service_knowledge",
+      "name": "Home service knowledge",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Understands how home repair, cleaning or property work is quoted, booked and repeated.",
+      "evidence_needed": ["Work with homeowners, landlords, property managers or trades", "Quoting or estimate visits"],
+      "keywords": ["home services", "cleaning", "repair", "property manager", "landlord", "homeowner", "estimate", "quote", "realtor", "roofing"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows experience with home service customers, quotes or estimate visits"
+    },
+    {
+      "id": "coachability",
+      "name": "Coachability",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Asks for feedback, changes what they do because of it, and can say what they changed.",
+      "evidence_needed": ["A story of feedback received and acted on", "Training others or being trained"],
+      "keywords": ["feedback", "coach", "coached", "learned", "improved", "role play", "trained", "mentor", "asked for help", "practised"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows the person taking feedback and changing their approach, with real examples"
+    }
+  ],
+  "gates": [
+    {"id": "work_authorization", "question": "Can the person legally work in the country of the role?", "kind": "hard"}
+  ],
+  "deal_breakers": [],
+  "work_sample": {
+    "title": "First message to a quiet lead",
+    "brief": "A homeowner asked for a cleaning quote yesterday and has not replied. Write one short text and one short email that could get a reply. Do not invent facts about the homeowner.",
+    "time_limit_minutes": 30,
+    "how_to_score": "Score for clarity, honesty, one clear next step and a polite way to say no. Do not score spelling style or length of sentences."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "outbound_experience",
+      "question": "Tell me about the last time you contacted someone who did not expect to hear from you. What did you say and what happened?",
+      "good_answer_signs": ["A real example with the opening line", "A clear result or a lesson"],
+      "weak_answer_signs": ["Only general talk about being good with people", "No example"]
+    },
+    {
+      "criterion_id": "follow_up_discipline",
+      "question": "A homeowner says to call back next Thursday. What do you do between now and Thursday?",
+      "good_answer_signs": ["Writes the date and time down", "Calls on the day and has a plan if there is no answer"],
+      "weak_answer_signs": ["Relies on memory", "Waits for the customer to call"]
+    },
+    {
+      "criterion_id": "objection_handling",
+      "question": "A customer says your price is too high. What do you say?",
+      "good_answer_signs": ["Asks what they compared it to", "Explains what is included and offers a smaller first step"],
+      "weak_answer_signs": ["Offers a discount straight away", "Argues"]
+    },
+    {
+      "criterion_id": "written_communication",
+      "question": "Show me a message you wrote that got a reply. Why do you think it worked?",
+      "good_answer_signs": ["Short and specific", "One clear question or next step"],
+      "weak_answer_signs": ["Long and vague", "Cannot show an example"]
+    }
+  ],
+  "red_flags": [
+    "Only lists skills and tools with no example of using them",
+    "Cannot describe a single follow up routine",
+    "Claims large results with no way to explain how they were reached"
+  ],
+  "sourcing_channels": ["Local job boards the owner uses", "Referrals from property managers and trades", "Community colleges and sales bootcamps", "Public portfolio and website search"],
+  "pay_research_hint": "Search the local job boards for sales development and appointment setter roles in your city and note the pay ranges shown. Ask two local business owners what they pay.",
+  "automation_note": "A tool can send reminders and draft first messages. A person should make the calls, hear the tone of a worried homeowner and decide when to stop contacting someone."
+}

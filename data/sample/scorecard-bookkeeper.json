@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "role_id": "bookkeeper",
+  "title": "Bookkeeper",
+  "level": "mid",
+  "mission": "Keep Northlight's books accurate and current so the owners can see cash, jobs and tax obligations every month.",
+  "outcomes_90_days": [
+    "Reconcile every bank and card account each month within a week of the statement date",
+    "Move vendor bill entry and the weekly payment run off the owners' Sunday nights",
+    "Send customer invoices on the day a job closes and chase late payers on a schedule",
+    "Deliver a clean profit and loss and balance sheet to the owners by a fixed day each month",
+    "Prepare sales tax and payroll records so quarterly filings need no scramble"
+  ],
+  "criteria": [
+    {
+      "id": "bookkeeping_fundamentals",
+      "name": "Bookkeeping fundamentals",
+      "type": "must",
+      "weight": 25,
+      "min_level": 2,
+      "what_good_looks_like": "Codes and posts transactions correctly, understands the chart of accounts and can explain why an entry goes where it does.",
+      "evidence_needed": ["Daily or weekly entry work on a real set of books", "Journal entries, accruals or a chart of accounts they set up or cleaned"],
+      "keywords": ["bookkeeping", "general ledger", "journal entries", "chart of accounts", "double entry", "trial balance", "accruals", "coded", "posted", "ledger"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows hands on bookkeeping such as coding, posting and journal entries, with real examples"
+    },
+    {
+      "id": "bank_reconciliation",
+      "name": "Bank reconciliation",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Reconciles bank and card accounts to the statement, finds the cause of differences and clears old items.",
+      "evidence_needed": ["Monthly reconciliations done and how many accounts", "How they chase a difference to its cause"],
+      "keywords": ["reconcile", "reconciled", "reconciliation", "bank feed", "bank statement", "credit card statement", "variance", "unreconciled", "matched", "cleared"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows the person reconciling accounts to statements and resolving differences, with real examples"
+    },
+    {
+      "id": "payables_receivables",
+      "name": "Payables and receivables",
+      "type": "must",
+      "weight": 15,
+      "min_level": 2,
+      "what_good_looks_like": "Enters and pays vendor bills on time, invoices customers promptly and follows up late payments in a routine.",
+      "evidence_needed": ["Weekly payment runs or invoice volumes", "An aging report or collections routine"],
+      "keywords": ["accounts payable", "accounts receivable", "invoices", "vendor bills", "collections", "aging", "aged receivables", "customer invoices", "payment run", "bill pay"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows managing vendor bills and customer invoices, including late payment follow up"
+    },
+    {
+      "id": "accounting_software",
+      "name": "Accounting software",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Comfortable in an off the shelf accounting package and a spreadsheet, using bank feeds and reports.",
+      "evidence_needed": ["Named software used weekly", "Reports or rules they set up"],
+      "keywords": ["quickbooks", "xero", "accounting software", "excel", "spreadsheet", "sage", "bank feeds", "receipt capture", "freshbooks", "wave"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows regular, confident use of accounting software and spreadsheets"
+    },
+    {
+      "id": "payroll_and_sales_tax",
+      "name": "Payroll and sales tax",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Has prepared payroll records and sales tax figures that went to a filing without surprises.",
+      "evidence_needed": ["Payroll run or preparation for a small team", "Sales tax or similar filings prepared"],
+      "keywords": ["payroll", "sales tax", "tax filing", "1099", "w2", "timesheets", "withholding", "vat", "gst", "contractor payments"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows preparing payroll or sales tax records with real examples"
+    },
+    {
+      "id": "month_end_close",
+      "name": "Month end close",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Follows a checklist to close each month and delivers a profit and loss and balance sheet on a fixed day.",
+      "evidence_needed": ["A close checklist or schedule", "Statements delivered and by which day"],
+      "keywords": ["month end", "close", "closing", "accrual", "deferred", "checklist", "financial statements", "profit and loss", "balance sheet"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows a repeatable month end close that produced financial statements"
+    },
+    {
+      "id": "accuracy_and_controls",
+      "name": "Accuracy and controls",
+      "type": "nice",
+      "weight": 10,
+      "what_good_looks_like": "Checks their own work, notices errors and duplicates, and sets simple approval steps for payments.",
+      "evidence_needed": ["An error they caught", "A check or approval step they added"],
+      "keywords": ["accuracy", "controls", "double check", "audit", "approval", "segregation", "error", "caught", "duplicate", "documentation"],
+      "levels": ["0 no evidence", "1 mentioned only", "2 did it with help", "3 did it on their own", "4 did it and taught or improved it"],
+      "jev_question": "Rate how strongly the text shows careful checking, catching errors and simple controls over payments"
+    }
+  ],
+  "gates": [
+    {"id": "work_authorization", "question": "Can the person legally work in the country of the role?", "kind": "hard"}
+  ],
+  "deal_breakers": [
+    {
+      "id": "falsified_records",
+      "description": "The person states they knowingly altered or hid financial records.",
+      "job_related_reason": "The job is to keep honest books. A person who admits falsifying records cannot be trusted with the bank accounts."
+    }
+  ],
+  "work_sample": {
+    "title": "Find the difference",
+    "brief": "You get a one month bank statement and a ledger export for the same account. They differ by a small amount. List the differences you find, say what you think caused each one and what you would ask the owner.",
+    "time_limit_minutes": 45,
+    "how_to_score": "Score for finding the causes, clear notes and sensible questions. Do not score speed alone or the software used."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "bank_reconciliation",
+      "question": "The bank balance and the books differ by a small amount at month end. Walk me through what you do.",
+      "good_answer_signs": ["Checks date range and opening balance first", "Looks for timing items, duplicates and transposed digits"],
+      "weak_answer_signs": ["Plugs the difference", "Cannot name where to look"]
+    },
+    {
+      "criterion_id": "payables_receivables",
+      "question": "A customer is 45 days late. What happens next in your routine?",
+      "good_answer_signs": ["A reminder schedule with dates", "Escalates to the owner with a clear summary"],
+      "weak_answer_signs": ["Waits for the customer", "No routine"]
+    },
+    {
+      "criterion_id": "accuracy_and_controls",
+      "question": "Tell me about a mistake you found in the books. How did you find it and what changed afterwards?",
+      "good_answer_signs": ["A real example with the cause", "A change that stops it happening again"],
+      "weak_answer_signs": ["Says they never make mistakes", "Blames others"]
+    },
+    {
+      "criterion_id": "bookkeeping_fundamentals",
+      "question": "The owner buys a ladder for the crews with the business card. How do you record it and what do you ask?",
+      "good_answer_signs": ["Asks about cost and expected use", "Explains asset versus expense in plain words"],
+      "weak_answer_signs": ["No questions", "Cannot explain the choice"]
+    }
+  ],
+  "red_flags": [
+    "Lists software with no description of weekly work",
+    "Has never reconciled an account without someone checking it",
+    "Treats a plug figure as an acceptable fix"
+  ],
+  "sourcing_channels": ["Local job boards the owner uses", "Referrals from the company's accountant", "Bookkeeping associations and community colleges", "Freelance bookkeepers who want steady part time work"],
+  "pay_research_hint": "Search local job boards for bookkeeper roles in your city and note the ranges shown. Ask your accountant what they pay or charge for similar work.",
+  "automation_note": "Bank feeds, receipt capture and rules can enter and match most routine items. A person still reviews the reconciliation, handles odd items and answers the owners' questions."
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Northlight Home Services",
+  "fictional": true,
+  "note": "A made up company for practice. Every person, company and email in this folder is fictional.",
+  "what_we_do": "Home repair and cleaning for houses and small rental properties. Customers book an estimate visit, a crew does the job, and many customers rebook every season.",
+  "size": {
+    "people": 14,
+    "cities": ["Harlow Bay", "Riverton"],
+    "teams": ["2 owners", "6 field crew", "3 office (scheduling, front desk, customer care)", "3 part time cleaners"]
+  },
+  "how_it_grows": "By bookings. More booked estimate visits mean more jobs, more repeat customers and more referrals. Missed follow ups and messy books are the two things that hurt most.",
+  "open_roles": [
+    {
+      "role_id": "sales-development-rep",
+      "why_now": "Leads from the website and from property managers sit too long before anyone calls them. One person should own first contact and follow up."
+    },
+    {
+      "role_id": "bookkeeper",
+      "why_now": "The owners do the books on Sunday nights. Bank accounts are reconciled late and sales tax is a scramble each quarter."
+    },
+    {
+      "role_id": "backend-engineer",
+      "why_now": "The booking and invoicing tool was built by a contractor. It needs a steady owner for bugs, integrations (payments, text messages, calendars) and new features."
+    }
+  ],
+  "tools_in_use": ["a shared calendar", "a spreadsheet for leads", "an off the shelf accounting package", "a small booking web app", "a payment provider", "a text message provider"],
+  "values_in_plain_words": ["Do what you said you would do", "Answer every customer", "Keep the paperwork honest"],
+  "hiring_rules": {
+    "scoring": "Only job related evidence is scored. Names, gaps in work history and the way English is written (apart from clear messages to customers) never lower a score.",
+    "decisions": "A person makes every yes and every no. A low score means not shortlisted now, never an automatic rejection."
+  }
+}

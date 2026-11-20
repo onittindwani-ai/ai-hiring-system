@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  "title": "{{role_title}}",
+  "description": "<p>{{mission_one_sentence}}</p><p>What you will do:</p><ul><li>{{outcome_1}}</li><li>{{outcome_2}}</li><li>{{outcome_3}}</li></ul><p>What we are looking for:</p><ul><li>{{must_have_1}}</li><li>{{must_have_2}}</li><li>{{must_have_3}}</li></ul><p>How we hire: {{how_we_hire_short}}</p>",
+  "datePosted": "{{date_posted_yyyy_mm_dd}}",
+  "validThrough": "{{valid_through_yyyy_mm_ddThh:mm}}",
+  "employmentType": ["{{employment_type_FULL_TIME_PART_TIME_CONTRACTOR_TEMPORARY_INTERN_OTHER}}"],
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "{{company_name}}",
+    "value": "{{job_id}}"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "{{company_name}}",
+    "sameAs": "{{company_website}}",
+    "logo": "{{company_logo_url}}"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{street_address}}",
+      "addressLocality": "{{city}}",
+      "addressRegion": "{{region}}",
+      "postalCode": "{{postal_code}}",
+      "addressCountry": "{{country_code}}"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "{{currency_code}}",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": "{{pay_min_number}}",
+      "maxValue": "{{pay_max_number}}",
+      "unitText": "{{HOUR_DAY_WEEK_MONTH_or_YEAR}}"
+    }
+  },
+  "directApply": "{{true_or_false}}"
+}

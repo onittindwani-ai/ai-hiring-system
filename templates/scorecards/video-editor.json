@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "role_id": "video-editor",
+  "title": "Video Editor",
+  "level": "mid",
+  "mission": "Turn raw footage into clear, polished videos that fit the brand and finish on time.",
+  "outcomes_90_days": [
+    "Deliver the first edited video in the first month with feedback reduced to one round.",
+    "Build reusable project templates, caption styles and an export checklist.",
+    "Keep a steady weekly output the team agrees on.",
+    "Organize raw footage and finished files in a folder structure anyone can find."
+  ],
+  "criteria": [
+    {
+      "id": "editing_craft",
+      "name": "Editing craft",
+      "type": "must",
+      "weight": 24,
+      "min_level": 3,
+      "what_good_looks_like": "Cuts with a clear story, good pacing, clean audio and consistent look.",
+      "evidence_needed": [
+        "Portfolio shows timing, trims and flow",
+        "Clean audio levels",
+        "Consistent style across pieces"
+      ],
+      "keywords": [
+        "premiere",
+        "final cut",
+        "davinci resolve",
+        "capcut",
+        "timeline",
+        "pacing",
+        "color",
+        "audio mix"
+      ],
+      "levels": [
+        "0 no evidence of editing craft",
+        "1 names editing craft but gives no example",
+        "2 editing craft done with guidance or at small scale",
+        "3 editing craft done independently with a clear result",
+        "4 editing craft with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows editing craft with real examples"
+    },
+    {
+      "id": "storytelling",
+      "name": "Storytelling for the format",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Understands what holds attention on the platform and edits for it.",
+      "evidence_needed": [
+        "Describes a hook choice and why",
+        "Retention or view results with context",
+        "Adapts one video to different formats"
+      ],
+      "keywords": [
+        "hook",
+        "retention",
+        "storytelling",
+        "shorts",
+        "reels",
+        "youtube",
+        "vertical",
+        "captions"
+      ],
+      "levels": [
+        "0 no evidence of storytelling for the format",
+        "1 names storytelling for the format but gives no example",
+        "2 storytelling for the format done with guidance or at small scale",
+        "3 storytelling for the format done independently with a clear result",
+        "4 storytelling for the format with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows storytelling for the format with real examples"
+    },
+    {
+      "id": "reliability_and_deadlines",
+      "name": "Reliability and deadlines",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Delivers on time, communicates early about delays and organizes files.",
+      "evidence_needed": [
+        "Examples of meeting deadlines with volume",
+        "Naming and file organization",
+        "Backups used"
+      ],
+      "keywords": [
+        "deadline",
+        "turnaround",
+        "delivery",
+        "organized",
+        "backup",
+        "workflow",
+        "files",
+        "revisions"
+      ],
+      "levels": [
+        "0 no evidence of reliability and deadlines",
+        "1 names reliability and deadlines but gives no example",
+        "2 reliability and deadlines done with guidance or at small scale",
+        "3 reliability and deadlines done independently with a clear result",
+        "4 reliability and deadlines with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows reliability and deadlines with real examples"
+    },
+    {
+      "id": "motion_and_graphics",
+      "name": "Motion graphics and captions",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Adds titles, captions and simple graphics that support meaning.",
+      "evidence_needed": [
+        "Samples with readable captions",
+        "Uses templates",
+        "Avoids clutter"
+      ],
+      "keywords": [
+        "after effects",
+        "motion graphics",
+        "captions",
+        "titles",
+        "lower thirds",
+        "animation",
+        "templates",
+        "remotion"
+      ],
+      "levels": [
+        "0 no evidence of motion graphics and captions",
+        "1 names motion graphics and captions but gives no example",
+        "2 motion graphics and captions done with guidance or at small scale",
+        "3 motion graphics and captions done independently with a clear result",
+        "4 motion graphics and captions with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows motion graphics and captions with real examples"
+    },
+    {
+      "id": "sound_and_rights",
+      "name": "Sound and rights awareness",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Uses licensed or owned music and footage and balances voice and music.",
+      "evidence_needed": [
+        "Names where music and clips come from",
+        "Records licenses",
+        "Knows loudness basics"
+      ],
+      "keywords": [
+        "music license",
+        "sound effects",
+        "royalty free",
+        "loudness",
+        "mixing",
+        "voiceover",
+        "copyright",
+        "credits"
+      ],
+      "levels": [
+        "0 no evidence of sound and rights awareness",
+        "1 names sound and rights awareness but gives no example",
+        "2 sound and rights awareness done with guidance or at small scale",
+        "3 sound and rights awareness done independently with a clear result",
+        "4 sound and rights awareness with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows sound and rights awareness with real examples"
+    },
+    {
+      "id": "feedback_and_collaboration",
+      "name": "Takes feedback",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Asks for clear notes, repeats them back and applies exactly what was asked.",
+      "evidence_needed": [
+        "Describes how feedback was gathered",
+        "Example of a hard note handled",
+        "Keeps version history"
+      ],
+      "keywords": [
+        "feedback",
+        "revisions",
+        "notes",
+        "frame.io",
+        "review",
+        "client",
+        "collaboration",
+        "approval"
+      ],
+      "levels": [
+        "0 no evidence of taking feedback",
+        "1 names taking feedback but gives no example",
+        "2 taking feedback done with guidance or at small scale",
+        "3 taking feedback done independently with a clear result",
+        "4 taking feedback with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows taking feedback with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    },
+    {
+      "id": "own_equipment",
+      "question": "Does the person have a computer and software that can handle the editing the role needs, or will the company supply it?",
+      "kind": "soft"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "uses_unlicensed_media",
+      "description": "Says they routinely use music or footage without a license.",
+      "job_related_reason": "Unlicensed media can lead to takedowns and legal claims."
+    }
+  ],
+  "work_sample": {
+    "title": "Edit a short clip",
+    "brief": "You get 4 minutes of fictional raw footage of a person explaining a topic, plus a one page brief. Deliver a 45 to 60 second cut with captions, and a note listing your choices. The clip must not use music you do not have rights to.",
+    "time_limit_minutes": 90,
+    "how_to_score": "Score hook, pacing, cuts on word boundaries, readable captions, clean audio, license safe music, and a clear note."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "editing_craft",
+      "question": "Walk me through how you edit a 10 minute interview into a 60 second clip.",
+      "good_answer_signs": [
+        "Starts from the message, then picks lines",
+        "Checks audio and cuts"
+      ],
+      "weak_answer_signs": [
+        "Starts from effects",
+        "Only trims the start and end"
+      ]
+    },
+    {
+      "criterion_id": "reliability_and_deadlines",
+      "question": "Tell me about a week with several deadlines at once. How did you manage them?",
+      "good_answer_signs": [
+        "Prioritized and told clients early",
+        "Used templates"
+      ],
+      "weak_answer_signs": [
+        "Missed deadlines without telling anyone",
+        "Cannot give an example"
+      ]
+    },
+    {
+      "criterion_id": "storytelling",
+      "question": "What do you change in the first 3 seconds of a video, and why?",
+      "good_answer_signs": [
+        "Puts the point or the question first",
+        "Names how they test hooks"
+      ],
+      "weak_answer_signs": [
+        "Adds heavy effects",
+        "No view of the audience"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Portfolio pieces are not theirs or not credited",
+    "No version control or backups",
+    "Cannot explain a style choice",
+    "Only works on one platform and cannot adapt"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Portfolio platforms and public showreels",
+    "Creators' public channels credited editors",
+    "Freelance communities",
+    "Film and media school alumni groups"
+  ],
+  "pay_research_hint": "Check freelance day or per video rates and salaried postings for video editors in your region. Ask for project based and monthly retainer quotes to compare.",
+  "automation_note": "AI can cut silences, transcribe, create caption drafts and suggest clip highlights. A person controls story, taste, rights and the final export."
+}

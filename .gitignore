@@ -1,0 +1,8 @@
+.env
+*.key
+config/profile.json
+hiring/*
+!hiring/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store

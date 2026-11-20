@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "role_id": "customer-support-specialist",
+  "title": "Customer Support Specialist",
+  "level": "entry",
+  "mission": "Help customers solve problems quickly and kindly so they stay and trust the company.",
+  "outcomes_90_days": [
+    "Answer tickets within the response time the team sets, with a written answer that solves the question.",
+    "Learn the top 20 common issues and write or improve a saved reply for each.",
+    "Log product problems with steps to repeat them, so engineering can act.",
+    "Keep customer satisfaction at or above the level the team agrees on."
+  ],
+  "criteria": [
+    {
+      "id": "clear_helpful_writing",
+      "name": "Clear, kind written answers",
+      "type": "must",
+      "weight": 22,
+      "min_level": 2,
+      "what_good_looks_like": "Answers the question first, uses plain words, checks the customer's real problem and ends with a clear next step.",
+      "evidence_needed": [
+        "Writing sample answers a question in order",
+        "Tone is warm without being sloppy",
+        "Offers a next step and not only an apology"
+      ],
+      "keywords": [
+        "tickets",
+        "email support",
+        "chat",
+        "reply",
+        "macros",
+        "tone",
+        "empathy",
+        "customer"
+      ],
+      "levels": [
+        "0 no evidence of clear, kind written answers",
+        "1 names clear, kind written answers but gives no example",
+        "2 clear, kind written answers done with guidance or at small scale",
+        "3 clear, kind written answers done independently with a clear result",
+        "4 clear, kind written answers with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows clear, kind written answers with real examples"
+    },
+    {
+      "id": "problem_solving",
+      "name": "Troubleshooting",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Asks for the right details, tries steps in a sensible order and knows when to escalate.",
+      "evidence_needed": [
+        "Describes a hard issue and the steps tried",
+        "Knows what to collect before escalating",
+        "Examples of reproducing a bug"
+      ],
+      "keywords": [
+        "troubleshoot",
+        "root cause",
+        "escalate",
+        "reproduce",
+        "diagnose",
+        "logs",
+        "steps",
+        "workaround"
+      ],
+      "levels": [
+        "0 no evidence of troubleshooting",
+        "1 names troubleshooting but gives no example",
+        "2 troubleshooting done with guidance or at small scale",
+        "3 troubleshooting done independently with a clear result",
+        "4 troubleshooting with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows troubleshooting with real examples"
+    },
+    {
+      "id": "calm_under_pressure",
+      "name": "Calm with upset customers",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Stays steady with an angry customer, acknowledges the problem and works toward a fix.",
+      "evidence_needed": [
+        "Story of a tense conversation and the result",
+        "Does not blame the customer",
+        "Knows personal limits and asks for help"
+      ],
+      "keywords": [
+        "de-escalate",
+        "upset customer",
+        "angry",
+        "complaint",
+        "refund",
+        "calm",
+        "resolved",
+        "retain"
+      ],
+      "levels": [
+        "0 no evidence of calm with upset customers",
+        "1 names calm with upset customers but gives no example",
+        "2 calm with upset customers done with guidance or at small scale",
+        "3 calm with upset customers done independently with a clear result",
+        "4 calm with upset customers with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows calm with upset customers with real examples"
+    },
+    {
+      "id": "product_learning",
+      "name": "Learns products fast",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Reads documentation, tries the product and can explain it simply.",
+      "evidence_needed": [
+        "Example of learning a new tool in days",
+        "Writes or improves help articles",
+        "Asks good questions in training"
+      ],
+      "keywords": [
+        "documentation",
+        "help center",
+        "knowledge base",
+        "trained",
+        "learned",
+        "onboarding",
+        "product knowledge",
+        "article"
+      ],
+      "levels": [
+        "0 no evidence of learning products fast",
+        "1 names learning products fast but gives no example",
+        "2 learning products fast done with guidance or at small scale",
+        "3 learning products fast done independently with a clear result",
+        "4 learning products fast with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows learning products fast with real examples"
+    },
+    {
+      "id": "tools_and_speed",
+      "name": "Support tools and speed",
+      "type": "nice",
+      "weight": 12,
+      "what_good_looks_like": "Works comfortably in a help desk tool and keeps accuracy while being quick.",
+      "evidence_needed": [
+        "Names the help desk used",
+        "Speaks about response and resolution measures",
+        "Uses saved replies without sounding robotic"
+      ],
+      "keywords": [
+        "zendesk",
+        "intercom",
+        "freshdesk",
+        "help scout",
+        "sla",
+        "csat",
+        "first response",
+        "queue"
+      ],
+      "levels": [
+        "0 no evidence of support tools and speed",
+        "1 names support tools and speed but gives no example",
+        "2 support tools and speed done with guidance or at small scale",
+        "3 support tools and speed done independently with a clear result",
+        "4 support tools and speed with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows support tools and speed with real examples"
+    },
+    {
+      "id": "ownership_and_follow_through",
+      "name": "Ownership",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Follows a case to the end, updates the customer and records what was learned.",
+      "evidence_needed": [
+        "Example of following up without being asked",
+        "Closes the loop with the customer",
+        "Shares patterns with the team"
+      ],
+      "keywords": [
+        "follow up",
+        "ownership",
+        "closed the loop",
+        "feedback",
+        "pattern",
+        "report",
+        "proactive",
+        "tracking"
+      ],
+      "levels": [
+        "0 no evidence of ownership and follow through",
+        "1 names ownership and follow through but gives no example",
+        "2 ownership and follow through done with guidance or at small scale",
+        "3 ownership and follow through done independently with a clear result",
+        "4 ownership and follow through with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows ownership and follow through with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    },
+    {
+      "id": "schedule_fit",
+      "question": "Can the person cover the support hours the role needs, including weekends if required?",
+      "kind": "soft"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "blames_customers",
+      "description": "Regularly describes customers as stupid or lazy.",
+      "job_related_reason": "Support depends on respect for the customer, and tone shows up in every reply."
+    }
+  ],
+  "work_sample": {
+    "title": "Reply to three tickets",
+    "brief": "You get three fictional customer messages (a billing mix up, a how-to question and an angry complaint) and a short policy page. Write the reply to each, and one internal note for the angry one that says what you would pass to the team.",
+    "time_limit_minutes": 40,
+    "how_to_score": "Score answer first, correct use of the policy page, tone, a clear next step, no promises outside policy, and a useful internal note."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "calm_under_pressure",
+      "question": "Tell me about the most upset customer you spoke with. What happened and how did it end?",
+      "good_answer_signs": [
+        "Acknowledged the problem before explaining",
+        "Offered a concrete fix or a clear honest no"
+      ],
+      "weak_answer_signs": [
+        "Argued or defended the company first",
+        "Cannot recall a case"
+      ]
+    },
+    {
+      "criterion_id": "problem_solving",
+      "question": "A customer says the app does not load. What do you ask and in what order?",
+      "good_answer_signs": [
+        "Device, version, error message, steps to repeat",
+        "Decides when to escalate"
+      ],
+      "weak_answer_signs": [
+        "Says restart it and stops",
+        "Asks nothing and apologizes"
+      ]
+    },
+    {
+      "criterion_id": "clear_helpful_writing",
+      "question": "How do you decide how long a reply should be?",
+      "good_answer_signs": [
+        "Answers fast then adds detail if needed",
+        "Considers customer's skill and mood"
+      ],
+      "weak_answer_signs": [
+        "Always writes long replies",
+        "Copy pastes without changes"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Replies full of errors or copied text",
+    "Blames customers or past employers",
+    "Cannot describe how they handled any conflict",
+    "Promises refunds or fixes they cannot authorize"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Local colleges",
+    "Referrals from current staff",
+    "Retail and hospitality workers who like helping people",
+    "Freelance support communities"
+  ],
+  "pay_research_hint": "Check recent postings for support roles in your region, noting shifts and whether weekends are paid extra. Compare with a published pay survey for your country.",
+  "automation_note": "AI can draft replies, summarize long threads and suggest help articles. A person should review replies on money, safety or upset customers and own the relationship."
+}

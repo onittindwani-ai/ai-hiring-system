@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "role_id": "bookkeeper",
+  "title": "Bookkeeper",
+  "level": "mid",
+  "mission": "Keep the books accurate and current so the owner always knows where money stands.",
+  "outcomes_90_days": [
+    "Reconcile all bank and card accounts monthly within a set number of days after month end.",
+    "Process bills and invoices on time with no duplicate payments.",
+    "Deliver a simple monthly report: profit, cash, money owed to us and money we owe.",
+    "Document the month end checklist so another person could follow it."
+  ],
+  "criteria": [
+    {
+      "id": "reconciliation_accuracy",
+      "name": "Reconciliation and accuracy",
+      "type": "must",
+      "weight": 24,
+      "min_level": 3,
+      "what_good_looks_like": "Reconciles accounts regularly, finds differences and documents how they were solved.",
+      "evidence_needed": [
+        "Describes the reconciliation steps and frequency",
+        "Example of a hard difference found and fixed",
+        "Mentions review by a second person or checks"
+      ],
+      "keywords": [
+        "reconciliation",
+        "reconcile",
+        "bank feeds",
+        "month end",
+        "accuracy",
+        "general ledger",
+        "journal entries",
+        "variance"
+      ],
+      "levels": [
+        "0 no evidence of reconciliation and accuracy",
+        "1 names reconciliation and accuracy but gives no example",
+        "2 reconciliation and accuracy done with guidance or at small scale",
+        "3 reconciliation and accuracy done independently with a clear result",
+        "4 reconciliation and accuracy with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows reconciliation and accuracy with real examples"
+    },
+    {
+      "id": "accounting_software",
+      "name": "Accounting software skill",
+      "type": "must",
+      "weight": 18,
+      "min_level": 2,
+      "what_good_looks_like": "Works fluently in at least one common accounting package and can set up charts of accounts and rules.",
+      "evidence_needed": [
+        "Names the package and what they did in it",
+        "Set up categories or rules",
+        "Imports and cleans data"
+      ],
+      "keywords": [
+        "quickbooks",
+        "xero",
+        "zoho books",
+        "freshbooks",
+        "chart of accounts",
+        "bank rules",
+        "invoicing",
+        "software"
+      ],
+      "levels": [
+        "0 no evidence of accounting software skill",
+        "1 names accounting software skill but gives no example",
+        "2 accounting software skill done with guidance or at small scale",
+        "3 accounting software skill done independently with a clear result",
+        "4 accounting software skill with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows accounting software skill with real examples"
+    },
+    {
+      "id": "payables_and_receivables",
+      "name": "Bills and invoices",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Handles accounts payable and receivable, follows up on late payments politely.",
+      "evidence_needed": [
+        "Describes a bill pay cycle with approvals",
+        "Chasing late invoices with an example",
+        "Avoids duplicate payments"
+      ],
+      "keywords": [
+        "accounts payable",
+        "accounts receivable",
+        "invoices",
+        "bills",
+        "collections",
+        "aging",
+        "payment terms",
+        "vendor"
+      ],
+      "levels": [
+        "0 no evidence of bills and invoices",
+        "1 names bills and invoices but gives no example",
+        "2 bills and invoices done with guidance or at small scale",
+        "3 bills and invoices done independently with a clear result",
+        "4 bills and invoices with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows bills and invoices with real examples"
+    },
+    {
+      "id": "reporting_clarity",
+      "name": "Plain reporting",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Explains the numbers in plain words to a non accountant.",
+      "evidence_needed": [
+        "Example of a monthly report",
+        "Explains one surprising number",
+        "Offers a next step based on numbers"
+      ],
+      "keywords": [
+        "report",
+        "profit and loss",
+        "balance sheet",
+        "cash flow",
+        "dashboard",
+        "summary",
+        "explained",
+        "budget"
+      ],
+      "levels": [
+        "0 no evidence of plain reporting",
+        "1 names plain reporting but gives no example",
+        "2 plain reporting done with guidance or at small scale",
+        "3 plain reporting done independently with a clear result",
+        "4 plain reporting with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows plain reporting with real examples"
+    },
+    {
+      "id": "compliance_awareness",
+      "name": "Tax and record awareness",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Knows the basics of records and deadlines for the country they work in and knows when to ask an accountant.",
+      "evidence_needed": [
+        "Names relevant filings or records they have prepared for",
+        "Says what is not their job",
+        "Keeps receipts and documents organized"
+      ],
+      "keywords": [
+        "sales tax",
+        "vat",
+        "gst",
+        "payroll",
+        "1099",
+        "filing",
+        "audit trail",
+        "records"
+      ],
+      "levels": [
+        "0 no evidence of tax and record awareness",
+        "1 names tax and record awareness but gives no example",
+        "2 tax and record awareness done with guidance or at small scale",
+        "3 tax and record awareness done independently with a clear result",
+        "4 tax and record awareness with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows tax and record awareness with real examples"
+    },
+    {
+      "id": "confidentiality_and_care",
+      "name": "Confidentiality and care",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Treats financial and personal data carefully and uses separate access.",
+      "evidence_needed": [
+        "Describes how they handle sensitive records",
+        "Uses strong passwords and permissions",
+        "Reports mistakes quickly"
+      ],
+      "keywords": [
+        "confidential",
+        "access control",
+        "permissions",
+        "audit",
+        "password",
+        "data",
+        "privacy",
+        "trusted"
+      ],
+      "levels": [
+        "0 no evidence of confidentiality and care",
+        "1 names confidentiality and care but gives no example",
+        "2 confidentiality and care done with guidance or at small scale",
+        "3 confidentiality and care done independently with a clear result",
+        "4 confidentiality and care with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows confidentiality and care with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    },
+    {
+      "id": "accounting_package",
+      "question": "Has the person used the accounting package the business uses, or one very similar?",
+      "kind": "soft"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "hides_errors",
+      "description": "Describes hiding or not reporting a mistake in the books.",
+      "job_related_reason": "Books must be honest, and early reporting prevents bigger problems."
+    }
+  ],
+  "work_sample": {
+    "title": "Clean a month of transactions",
+    "brief": "You get a fictional spreadsheet of 60 bank transactions with 6 problems (duplicate, wrong category, missing receipt, a transfer, a refund, an odd amount). Categorize them, list the problems you found and write three questions for the owner.",
+    "time_limit_minutes": 60,
+    "how_to_score": "Score problems found, correct categories, a clear list of open questions, no guesses presented as facts, and a tidy result."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "reconciliation_accuracy",
+      "question": "Walk me through your month end close. What do you do on day one, and what do you check last?",
+      "good_answer_signs": [
+        "Names ordered steps and checks",
+        "Mentions locking periods or review"
+      ],
+      "weak_answer_signs": [
+        "Describes only data entry",
+        "No review step"
+      ]
+    },
+    {
+      "criterion_id": "reconciliation_accuracy",
+      "question": "Tell me about a reconciliation that did not match. How did you find the reason?",
+      "good_answer_signs": [
+        "Narrows by date or amount and finds the cause",
+        "Documents the fix"
+      ],
+      "weak_answer_signs": [
+        "Plugs the difference",
+        "Ignores small differences"
+      ]
+    },
+    {
+      "criterion_id": "payables_and_receivables",
+      "question": "How do you handle a customer who is 60 days late?",
+      "good_answer_signs": [
+        "Reminders, a call, agreed plan, stop work rules",
+        "Keeps the relationship in mind"
+      ],
+      "weak_answer_signs": [
+        "Threatens at once",
+        "No process"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Cannot name the software or steps used in previous roles",
+    "Treats rounding or unmatched items as unimportant",
+    "No questions about how the business is set up",
+    "Casual about sharing logins"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Accounting and bookkeeping associations in your country",
+    "Referrals from your accountant",
+    "Freelance bookkeepers",
+    "Software partner directories (public lists)"
+  ],
+  "pay_research_hint": "Check the pay for bookkeepers on several current postings and a published survey in your region. Compare hourly contract rates with salary if you consider a part time or freelance option.",
+  "automation_note": "AI can categorize transactions, flag duplicates and draft reports. A person must approve, reconcile, and be accountable for the books. Not legal or tax advice."
+}

@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "role_id": "operations-coordinator",
+  "title": "Operations Coordinator",
+  "level": "entry",
+  "mission": "Keep daily work moving by scheduling, tracking and fixing small problems before they grow.",
+  "outcomes_90_days": [
+    "Run the weekly schedule and job tracker so every job has an owner, date and status.",
+    "Reduce late or missed jobs by setting up reminders and a simple checklist.",
+    "Document the five most repeated tasks as short step by step guides.",
+    "Report the top three delays every week with a suggested fix."
+  ],
+  "criteria": [
+    {
+      "id": "organization_and_scheduling",
+      "name": "Organization and scheduling",
+      "type": "must",
+      "weight": 22,
+      "min_level": 2,
+      "what_good_looks_like": "Keeps many moving parts straight with a calendar, checklists and clear owners.",
+      "evidence_needed": [
+        "Describes the system used, not just that they are organized",
+        "Example of re-planning when something broke",
+        "Handles overlapping deadlines with reasons"
+      ],
+      "keywords": [
+        "schedule",
+        "calendar",
+        "coordination",
+        "dispatch",
+        "logistics",
+        "planning",
+        "checklist",
+        "tracker"
+      ],
+      "levels": [
+        "0 no evidence of organization and scheduling",
+        "1 names organization and scheduling but gives no example",
+        "2 organization and scheduling done with guidance or at small scale",
+        "3 organization and scheduling done independently with a clear result",
+        "4 organization and scheduling with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows organization and scheduling with real examples"
+    },
+    {
+      "id": "follow_up_and_accuracy",
+      "name": "Accuracy and follow up",
+      "type": "must",
+      "weight": 18,
+      "min_level": 2,
+      "what_good_looks_like": "Gets details right and follows up until the thing is done.",
+      "evidence_needed": [
+        "Names how they check their own work",
+        "Example of catching an error before it cost money",
+        "Writes clear confirmations"
+      ],
+      "keywords": [
+        "accuracy",
+        "data entry",
+        "attention to detail",
+        "confirm",
+        "follow up",
+        "audit",
+        "spreadsheet",
+        "quality check"
+      ],
+      "levels": [
+        "0 no evidence of accuracy and follow up",
+        "1 names accuracy and follow up but gives no example",
+        "2 accuracy and follow up done with guidance or at small scale",
+        "3 accuracy and follow up done independently with a clear result",
+        "4 accuracy and follow up with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows accuracy and follow up with real examples"
+    },
+    {
+      "id": "communication_with_people",
+      "name": "Clear communication",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Explains changes and problems to staff and customers early, in plain words.",
+      "evidence_needed": [
+        "Example of a hard message sent early",
+        "Handles two sides who disagree",
+        "Written updates are short and clear"
+      ],
+      "keywords": [
+        "communication",
+        "stakeholders",
+        "vendors",
+        "updates",
+        "customers",
+        "team",
+        "message",
+        "escalate"
+      ],
+      "levels": [
+        "0 no evidence of clear communication",
+        "1 names clear communication but gives no example",
+        "2 clear communication done with guidance or at small scale",
+        "3 clear communication done independently with a clear result",
+        "4 clear communication with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows clear communication with real examples"
+    },
+    {
+      "id": "process_improvement",
+      "name": "Improves the process",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Notices repeating problems and writes a simple fix.",
+      "evidence_needed": [
+        "Example of a checklist or template created",
+        "Measured a result such as fewer errors",
+        "Asks why a step exists"
+      ],
+      "keywords": [
+        "process",
+        "improvement",
+        "template",
+        "sop",
+        "streamlined",
+        "automation",
+        "reduced",
+        "documented"
+      ],
+      "levels": [
+        "0 no evidence of process improvement",
+        "1 names process improvement but gives no example",
+        "2 process improvement done with guidance or at small scale",
+        "3 process improvement done independently with a clear result",
+        "4 process improvement with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows process improvement with real examples"
+    },
+    {
+      "id": "tools_and_spreadsheets",
+      "name": "Spreadsheets and tools",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Works in spreadsheets and scheduling tools without hand holding.",
+      "evidence_needed": [
+        "Names the tools and what they built",
+        "Formulas or filters used for real tasks",
+        "Learned a new tool quickly"
+      ],
+      "keywords": [
+        "excel",
+        "google sheets",
+        "formula",
+        "pivot",
+        "scheduling software",
+        "airtable",
+        "asana",
+        "trello"
+      ],
+      "levels": [
+        "0 no evidence of spreadsheets and tools",
+        "1 names spreadsheets and tools but gives no example",
+        "2 spreadsheets and tools done with guidance or at small scale",
+        "3 spreadsheets and tools done independently with a clear result",
+        "4 spreadsheets and tools with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows spreadsheets and tools with real examples"
+    },
+    {
+      "id": "problem_solving_on_the_day",
+      "name": "Solves problems on the day",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Makes a sensible decision when plans change and tells people what changed.",
+      "evidence_needed": [
+        "Story of a last minute change and the decision made",
+        "Knows when to ask a manager",
+        "Keeps calm while others are stressed"
+      ],
+      "keywords": [
+        "last minute",
+        "reschedule",
+        "problem solving",
+        "contingency",
+        "escalation",
+        "emergency",
+        "backup plan",
+        "decision"
+      ],
+      "levels": [
+        "0 no evidence of problem solving on the day",
+        "1 names problem solving on the day but gives no example",
+        "2 problem solving on the day done with guidance or at small scale",
+        "3 problem solving on the day done independently with a clear result",
+        "4 problem solving on the day with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows problem solving on the day with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    }
+  ],
+  "deal_breakers": [],
+  "work_sample": {
+    "title": "Fix a messy week",
+    "brief": "You get a fictional week's job list (12 jobs, 3 crews, 2 conflicts, 1 missing parts order) in a spreadsheet. Produce a clean schedule, list the conflicts and your fix for each, and write the message you would send to one customer whose job moves.",
+    "time_limit_minutes": 45,
+    "how_to_score": "Score conflicts found, sensible fixes, a clean readable schedule, a short and honest customer message, and any questions raised about missing information."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "organization_and_scheduling",
+      "question": "Describe how you keep track of everything you are responsible for in one week.",
+      "good_answer_signs": [
+        "Names a system with steps",
+        "Mentions a weekly review"
+      ],
+      "weak_answer_signs": [
+        "Says they just remember",
+        "Cannot explain what happens when they are away"
+      ]
+    },
+    {
+      "criterion_id": "problem_solving_on_the_day",
+      "question": "Tell me about a day when your plan fell apart. What did you do first?",
+      "good_answer_signs": [
+        "Informed people quickly and set a new plan",
+        "Learned something and changed the process"
+      ],
+      "weak_answer_signs": [
+        "Waited for someone to tell them",
+        "Blamed others"
+      ]
+    },
+    {
+      "criterion_id": "follow_up_and_accuracy",
+      "question": "How do you catch your own mistakes before others see them?",
+      "good_answer_signs": [
+        "Uses a second look or checklist",
+        "Gives an example of a catch"
+      ],
+      "weak_answer_signs": [
+        "Says they do not make mistakes",
+        "No method"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Cannot give a single example with dates or numbers",
+    "Changes plans without telling people",
+    "Careless spelling of names or addresses in the application",
+    "Dislikes any repetitive work"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Local community colleges",
+    "Referrals from staff",
+    "Admin and dispatch workers in similar trades",
+    "Local business groups"
+  ],
+  "pay_research_hint": "Look at several current postings for coordinator or dispatcher roles in your area and a published pay survey for your country. Note whether the hours include early or late shifts.",
+  "automation_note": "AI and scheduling software can propose schedules, send reminders and fill spreadsheets. A person still decides trade offs, talks to customers and handles surprises."
+}

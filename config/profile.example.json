@@ -1,0 +1,17 @@
+{
+  "setup_done": false,
+  "browser": "chrome | edge | other-chromium | safari-or-firefox",
+  "browser_mode": "extension | manual",
+  "browser_consent": false,
+  "jev": "ready | later | declined (leave out until asked)",
+  "email_tool": "gmail | outlook | other",
+  "booking_link": "",
+  "scoring_engine": "claude | jev | rules",
+  "company": {
+    "name": "",
+    "website": "",
+    "other_pages": [],
+    "summary": "",
+    "confirmed": false
+  }
+}

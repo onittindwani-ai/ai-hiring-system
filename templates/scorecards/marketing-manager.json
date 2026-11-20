@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "role_id": "marketing-manager",
+  "title": "Marketing Manager",
+  "level": "senior",
+  "mission": "Bring in a steady flow of the right customers by choosing, running and measuring marketing channels.",
+  "outcomes_90_days": [
+    "Write a simple marketing plan with 2 or 3 channels, a budget and goals the owner agrees on.",
+    "Launch the first campaign in each chosen channel with tracking in place.",
+    "Report leads, cost per lead and customers won each month in a one page report.",
+    "Build a content calendar for the next quarter."
+  ],
+  "criteria": [
+    {
+      "id": "channel_strategy",
+      "name": "Channel strategy",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Chooses a few channels for clear reasons, with a budget and a way to learn what works.",
+      "evidence_needed": [
+        "Describes why a channel was chosen over others",
+        "Gives goals and results with real numbers",
+        "Dropped a channel that did not work"
+      ],
+      "keywords": [
+        "strategy",
+        "channels",
+        "campaign",
+        "budget",
+        "seo",
+        "paid ads",
+        "email marketing",
+        "plan"
+      ],
+      "levels": [
+        "0 no evidence of channel strategy",
+        "1 names channel strategy but gives no example",
+        "2 channel strategy done with guidance or at small scale",
+        "3 channel strategy done independently with a clear result",
+        "4 channel strategy with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows channel strategy with real examples"
+    },
+    {
+      "id": "measurement",
+      "name": "Measuring results",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Sets up tracking, reads the numbers honestly and changes plans based on them.",
+      "evidence_needed": [
+        "Names the numbers tracked and where",
+        "Example of a decision made from data",
+        "Honest about what could not be measured"
+      ],
+      "keywords": [
+        "analytics",
+        "tracking",
+        "conversion",
+        "cost per lead",
+        "attribution",
+        "utm",
+        "roi",
+        "dashboard"
+      ],
+      "levels": [
+        "0 no evidence of measuring results",
+        "1 names measuring results but gives no example",
+        "2 measuring results done with guidance or at small scale",
+        "3 measuring results done independently with a clear result",
+        "4 measuring results with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows measuring results with real examples"
+    },
+    {
+      "id": "writing_and_message",
+      "name": "Message and writing",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Writes or directs clear copy that speaks to a specific customer.",
+      "evidence_needed": [
+        "Samples show a clear customer and offer",
+        "Example of testing two messages",
+        "No inflated claims"
+      ],
+      "keywords": [
+        "copy",
+        "messaging",
+        "landing page",
+        "ad copy",
+        "brand voice",
+        "newsletter",
+        "content",
+        "positioning"
+      ],
+      "levels": [
+        "0 no evidence of message and writing",
+        "1 names message and writing but gives no example",
+        "2 message and writing done with guidance or at small scale",
+        "3 message and writing done independently with a clear result",
+        "4 message and writing with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows message and writing with real examples"
+    },
+    {
+      "id": "hands_on_execution",
+      "name": "Hands on execution",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Can do the work as well as plan it, such as setting up an ad account, email tool or website page.",
+      "evidence_needed": [
+        "Names tools used and results of their own campaigns",
+        "Built something from scratch",
+        "Works with freelancers or agencies"
+      ],
+      "keywords": [
+        "google ads",
+        "meta ads",
+        "mailchimp",
+        "wordpress",
+        "hubspot",
+        "canva",
+        "freelancers",
+        "launched"
+      ],
+      "levels": [
+        "0 no evidence of hands on execution",
+        "1 names hands on execution but gives no example",
+        "2 hands on execution done with guidance or at small scale",
+        "3 hands on execution done independently with a clear result",
+        "4 hands on execution with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows hands on execution with real examples"
+    },
+    {
+      "id": "budget_discipline",
+      "name": "Budget discipline",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Spends in small tests first and can say what each dollar produced.",
+      "evidence_needed": [
+        "Describes a test budget and stop rule",
+        "Cost per customer tracking",
+        "Honest about losses"
+      ],
+      "keywords": [
+        "budget",
+        "test",
+        "cost per acquisition",
+        "cac",
+        "spend",
+        "pilot",
+        "payback",
+        "experiment"
+      ],
+      "levels": [
+        "0 no evidence of budget discipline",
+        "1 names budget discipline but gives no example",
+        "2 budget discipline done with guidance or at small scale",
+        "3 budget discipline done independently with a clear result",
+        "4 budget discipline with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows budget discipline with real examples"
+    },
+    {
+      "id": "works_with_sales",
+      "name": "Works with sales and delivery",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Gets feedback from sales and customers and changes marketing because of it.",
+      "evidence_needed": [
+        "Example of a feedback loop with sales",
+        "Lead quality definitions agreed",
+        "Customer interviews or reviews used"
+      ],
+      "keywords": [
+        "sales alignment",
+        "lead quality",
+        "customer interviews",
+        "feedback",
+        "handoff",
+        "sla",
+        "reviews",
+        "voice of customer"
+      ],
+      "levels": [
+        "0 no evidence of working with sales and delivery",
+        "1 names working with sales and delivery but gives no example",
+        "2 working with sales and delivery done with guidance or at small scale",
+        "3 working with sales and delivery done independently with a clear result",
+        "4 working with sales and delivery with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows working with sales and delivery with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "fake_proof",
+      "description": "Suggests inventing reviews, testimonials or numbers.",
+      "job_related_reason": "Fake proof breaks advertising law and trust."
+    }
+  ],
+  "work_sample": {
+    "title": "90 day marketing plan",
+    "brief": "You get a fictional company brief (service, area, average job value, a 3 thousand dollar monthly marketing budget as a made up example, current website basics). Write a one page plan with the channels you would test, budget split, first month tasks and how you would know after 90 days whether it works.",
+    "time_limit_minutes": 90,
+    "how_to_score": "Score clear customer, reasoned channel choice, test and stop rules, tracking plan, honest assumptions, and a short realistic task list."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "channel_strategy",
+      "question": "If you had a small budget and one hire to help, how would you pick the first channel?",
+      "good_answer_signs": [
+        "Starts from the customer and cost to test",
+        "Names how they would stop a bad test"
+      ],
+      "weak_answer_signs": [
+        "Picks every channel",
+        "Picks whichever is popular"
+      ]
+    },
+    {
+      "criterion_id": "measurement",
+      "question": "Tell me about a campaign that failed. What did the numbers tell you and what did you change?",
+      "good_answer_signs": [
+        "Names real numbers and a decision",
+        "Takes responsibility"
+      ],
+      "weak_answer_signs": [
+        "Blames the platform",
+        "Cannot show numbers"
+      ]
+    },
+    {
+      "criterion_id": "works_with_sales",
+      "question": "How do you know leads are good and not only many?",
+      "good_answer_signs": [
+        "Joint definition with sales and follow up tracking",
+        "Reviews closed and lost leads"
+      ],
+      "weak_answer_signs": [
+        "Counts clicks only",
+        "No feedback"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Only vanity numbers such as followers or impressions",
+    "Cannot say what any campaign cost",
+    "Promises results with no way to measure",
+    "Talks about tools but not customers"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Referrals from owners in noncompeting businesses",
+    "Marketing communities and meetups",
+    "Portfolios and case studies on personal sites",
+    "Freelance marketers who may become full time"
+  ],
+  "pay_research_hint": "Check current postings for marketing managers in your region and a published pay survey. Compare in house pay with freelance day rates to see which path suits your budget.",
+  "automation_note": "AI can draft copy, research competitors, report numbers and run first drafts of calendars. A person should set the strategy, approve claims and spend, and own brand tone."
+}

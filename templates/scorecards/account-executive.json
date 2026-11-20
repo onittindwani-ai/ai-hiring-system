@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "role_id": "account-executive",
+  "title": "Account Executive",
+  "level": "mid",
+  "mission": "Turn qualified meetings into signed customers by running a clear, honest sales process.",
+  "outcomes_90_days": [
+    "Run own pipeline in the CRM with every deal having a next step and a date.",
+    "Reach a first closed deal and a repeatable win rate the team tracks monthly.",
+    "Send proposals within a day of the final call, using the company template.",
+    "Give product and pricing feedback from lost deals every month."
+  ],
+  "criteria": [
+    {
+      "id": "discovery_skill",
+      "name": "Discovery and qualification",
+      "type": "must",
+      "weight": 22,
+      "min_level": 2,
+      "what_good_looks_like": "Asks questions that reveal the problem, who decides, budget and timing, and says no to poor fits early.",
+      "evidence_needed": [
+        "Describes questions asked and what they learned",
+        "Example of a deal they walked away from and why",
+        "Names who decided and how they found out"
+      ],
+      "keywords": [
+        "discovery",
+        "qualification",
+        "pain points",
+        "decision maker",
+        "budget",
+        "timeline",
+        "meddic",
+        "needs analysis"
+      ],
+      "levels": [
+        "0 no evidence of discovery and qualification",
+        "1 names discovery and qualification but gives no example",
+        "2 discovery and qualification done with guidance or at small scale",
+        "3 discovery and qualification done independently with a clear result",
+        "4 discovery and qualification with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows discovery and qualification with real examples"
+    },
+    {
+      "id": "closing_record",
+      "name": "Track record of closing",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Has closed deals of a similar size and cycle and can explain the steps from first call to signature.",
+      "evidence_needed": [
+        "Deal sizes and cycle lengths with real numbers",
+        "Win rate or quota attainment, with how it was measured",
+        "One deal story with the hardest moment"
+      ],
+      "keywords": [
+        "closed",
+        "quota",
+        "win rate",
+        "pipeline",
+        "deal size",
+        "sales cycle",
+        "signed",
+        "revenue"
+      ],
+      "levels": [
+        "0 no evidence of closing record",
+        "1 names closing record but gives no example",
+        "2 closing record done with guidance or at small scale",
+        "3 closing record done independently with a clear result",
+        "4 closing record with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows closing record with real examples"
+    },
+    {
+      "id": "pipeline_discipline",
+      "name": "Pipeline discipline",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Keeps CRM stages honest, forecasts with reasons and follows up on every open deal.",
+      "evidence_needed": [
+        "Describes a weekly pipeline review habit",
+        "Forecast accuracy example",
+        "Next step logged on every deal"
+      ],
+      "keywords": [
+        "crm",
+        "forecast",
+        "pipeline review",
+        "stages",
+        "next step",
+        "hubspot",
+        "salesforce",
+        "follow up"
+      ],
+      "levels": [
+        "0 no evidence of pipeline discipline",
+        "1 names pipeline discipline but gives no example",
+        "2 pipeline discipline done with guidance or at small scale",
+        "3 pipeline discipline done independently with a clear result",
+        "4 pipeline discipline with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows pipeline discipline with real examples"
+    },
+    {
+      "id": "proposal_and_pricing",
+      "name": "Proposals and pricing talk",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Writes simple proposals and talks about price calmly, tying it to the customer's outcome.",
+      "evidence_needed": [
+        "Example of a proposal and how it was shaped",
+        "How they handled a price objection",
+        "Discounts only with a trade"
+      ],
+      "keywords": [
+        "proposal",
+        "pricing",
+        "negotiation",
+        "objection",
+        "contract",
+        "discount",
+        "quote",
+        "scope"
+      ],
+      "levels": [
+        "0 no evidence of proposals and pricing",
+        "1 names proposals and pricing but gives no example",
+        "2 proposals and pricing done with guidance or at small scale",
+        "3 proposals and pricing done independently with a clear result",
+        "4 proposals and pricing with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows proposals and pricing with real examples"
+    },
+    {
+      "id": "customer_listening",
+      "name": "Listening and honest advice",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Repeats back what the customer said, admits product limits and recommends the right plan even if smaller.",
+      "evidence_needed": [
+        "Example where they told a customer the product was not a fit",
+        "Customer references or repeat business",
+        "Describes how they prepare for a call"
+      ],
+      "keywords": [
+        "listening",
+        "honest",
+        "referral",
+        "reference",
+        "customer",
+        "relationship",
+        "trust",
+        "renewal"
+      ],
+      "levels": [
+        "0 no evidence of listening and honest advice",
+        "1 names listening and honest advice but gives no example",
+        "2 listening and honest advice done with guidance or at small scale",
+        "3 listening and honest advice done independently with a clear result",
+        "4 listening and honest advice with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows listening and honest advice with real examples"
+    },
+    {
+      "id": "handoff_quality",
+      "name": "Clean handoff to delivery",
+      "type": "nice",
+      "weight": 12,
+      "what_good_looks_like": "Documents what was promised so the delivery team can start without a second call.",
+      "evidence_needed": [
+        "Describes a handoff document or checklist",
+        "Example of a promise they declined to make",
+        "Works with delivery or support teams"
+      ],
+      "keywords": [
+        "handoff",
+        "onboarding",
+        "scope",
+        "documentation",
+        "kickoff",
+        "customer success",
+        "notes",
+        "promise"
+      ],
+      "levels": [
+        "0 no evidence of clean handoff to delivery",
+        "1 names clean handoff to delivery but gives no example",
+        "2 clean handoff to delivery done with guidance or at small scale",
+        "3 clean handoff to delivery done independently with a clear result",
+        "4 clean handoff to delivery with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows clean handoff to delivery with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "promises_beyond_product",
+      "description": "Describes promising features or results the company cannot deliver in order to close.",
+      "job_related_reason": "Overpromising leads to refunds, churn and legal risk."
+    }
+  ],
+  "work_sample": {
+    "title": "Discovery call plan and follow up",
+    "brief": "You get a fictional lead's notes and a one page price list. Write your 10 discovery questions in order, then a follow up email after the call and a short proposal outline (scope, price, next step). State what you would need to know before sending the proposal.",
+    "time_limit_minutes": 60,
+    "how_to_score": "Score question quality (problem, decision process, budget, timing), honest scope, clear next step, no invented product claims, and whether risks and unknowns are named."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "discovery_skill",
+      "question": "Tell me about a deal you chose not to pursue. How did you know?",
+      "good_answer_signs": [
+        "Names a clear signal such as no budget or no decision maker",
+        "Saved time for a better deal"
+      ],
+      "weak_answer_signs": [
+        "Says they never walk away",
+        "Blames the customer without detail"
+      ]
+    },
+    {
+      "criterion_id": "closing_record",
+      "question": "Take me through your last closed deal from first call to signature. What almost went wrong?",
+      "good_answer_signs": [
+        "Gives dates, amounts and people involved by role",
+        "Names a real obstacle and what they did"
+      ],
+      "weak_answer_signs": [
+        "Gives no numbers",
+        "Describes only luck or timing"
+      ]
+    },
+    {
+      "criterion_id": "pipeline_discipline",
+      "question": "How do you decide which deals to work on today and which to drop from your forecast?",
+      "good_answer_signs": [
+        "Uses stage, next step date and last contact",
+        "Removes stale deals on a schedule"
+      ],
+      "weak_answer_signs": [
+        "Goes by gut feel only",
+        "Keeps every deal forever"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Quotes revenue numbers with no way to check them",
+    "Speaks badly about every past customer",
+    "Cannot say what the product does not do",
+    "Discounts first and asks questions later"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Referrals from your own customers and partners",
+    "Industry associations and local business groups",
+    "Sales leader networks",
+    "Former colleagues of your best salespeople"
+  ],
+  "pay_research_hint": "Compare the base and the commission plan: look at several current postings and a published pay survey for the region. Ask what share of reps hit quota in comparable companies if you can find that.",
+  "automation_note": "AI can prepare call notes, draft proposals and keep the CRM tidy. The relationship, judgment on price and the final yes stay with a person."
+}

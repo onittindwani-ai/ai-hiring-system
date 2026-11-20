@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "role_id": "content-writer",
+  "title": "Content Writer",
+  "level": "mid",
+  "mission": "Produce clear, accurate and useful written content that brings the right readers to the business.",
+  "outcomes_90_days": [
+    "Publish the agreed number of pieces per month on schedule, each with a named source for every fact.",
+    "Create an editorial calendar for the next quarter based on customer questions.",
+    "Improve three existing pages by rewriting for clarity and checking facts.",
+    "Reach a first draft accepted with no more than one round of changes on average."
+  ],
+  "criteria": [
+    {
+      "id": "writing_quality",
+      "name": "Clear, engaging writing",
+      "type": "must",
+      "weight": 24,
+      "min_level": 3,
+      "what_good_looks_like": "Writes in plain words with a clear point, good structure and a voice that suits the reader.",
+      "evidence_needed": [
+        "Samples have a clear main point in the first lines",
+        "Short sentences and no filler",
+        "Structure helps scanning"
+      ],
+      "keywords": [
+        "writing",
+        "articles",
+        "blog",
+        "copywriting",
+        "editing",
+        "published",
+        "portfolio",
+        "newsletter"
+      ],
+      "levels": [
+        "0 no evidence of clear, engaging writing",
+        "1 names clear, engaging writing but gives no example",
+        "2 clear, engaging writing done with guidance or at small scale",
+        "3 clear, engaging writing done independently with a clear result",
+        "4 clear, engaging writing with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows clear, engaging writing with real examples"
+    },
+    {
+      "id": "research_and_accuracy",
+      "name": "Research and accuracy",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Finds primary sources, checks facts and notes where a fact might change.",
+      "evidence_needed": [
+        "Samples show links or named sources",
+        "Describes how they check numbers",
+        "Admits uncertainty and corrects errors"
+      ],
+      "keywords": [
+        "research",
+        "sources",
+        "fact check",
+        "interview",
+        "citations",
+        "data",
+        "primary source",
+        "accuracy"
+      ],
+      "levels": [
+        "0 no evidence of research and accuracy",
+        "1 names research and accuracy but gives no example",
+        "2 research and accuracy done with guidance or at small scale",
+        "3 research and accuracy done independently with a clear result",
+        "4 research and accuracy with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows research and accuracy with real examples"
+    },
+    {
+      "id": "audience_understanding",
+      "name": "Understands the reader",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Starts from what the reader wants to know and writes to a specific person.",
+      "evidence_needed": [
+        "Describes the reader in a sample",
+        "Example of changing a piece after reader feedback",
+        "Uses customer questions as topics"
+      ],
+      "keywords": [
+        "audience",
+        "persona",
+        "reader",
+        "customer questions",
+        "search intent",
+        "topics",
+        "feedback",
+        "voice"
+      ],
+      "levels": [
+        "0 no evidence of understanding the reader",
+        "1 names understanding the reader but gives no example",
+        "2 understanding the reader done with guidance or at small scale",
+        "3 understanding the reader done independently with a clear result",
+        "4 understanding the reader with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows understanding the reader with real examples"
+    },
+    {
+      "id": "editing_and_process",
+      "name": "Editing and process",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Self edits well, accepts edits and meets deadlines.",
+      "evidence_needed": [
+        "Describes own editing steps",
+        "Timelines met with examples",
+        "Works with an editor or subject expert"
+      ],
+      "keywords": [
+        "edit",
+        "deadline",
+        "workflow",
+        "revisions",
+        "style guide",
+        "content calendar",
+        "cms",
+        "brief"
+      ],
+      "levels": [
+        "0 no evidence of editing and process",
+        "1 names editing and process but gives no example",
+        "2 editing and process done with guidance or at small scale",
+        "3 editing and process done independently with a clear result",
+        "4 editing and process with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows editing and process with real examples"
+    },
+    {
+      "id": "seo_and_distribution",
+      "name": "Search and sharing basics",
+      "type": "nice",
+      "weight": 12,
+      "what_good_looks_like": "Understands how people find content and structures pieces so they can be found.",
+      "evidence_needed": [
+        "Mentions search intent and headings",
+        "Results reported honestly",
+        "Does not stuff keywords"
+      ],
+      "keywords": [
+        "seo",
+        "keywords",
+        "search",
+        "headings",
+        "meta description",
+        "internal links",
+        "traffic",
+        "analytics"
+      ],
+      "levels": [
+        "0 no evidence of search and sharing basics",
+        "1 names search and sharing basics but gives no example",
+        "2 search and sharing basics done with guidance or at small scale",
+        "3 search and sharing basics done independently with a clear result",
+        "4 search and sharing basics with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows search and sharing basics with real examples"
+    },
+    {
+      "id": "ai_use_judgment",
+      "name": "Responsible use of AI tools",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Uses AI to speed up drafts and research while checking facts and keeping a human voice.",
+      "evidence_needed": [
+        "Describes how they check AI output",
+        "Says what they never hand to AI",
+        "Keeps a personal voice"
+      ],
+      "keywords": [
+        "ai tools",
+        "chatgpt",
+        "claude",
+        "draft",
+        "fact check",
+        "prompt",
+        "edited",
+        "verified"
+      ],
+      "levels": [
+        "0 no evidence of responsible use of AI tools",
+        "1 names responsible use of AI tools but gives no example",
+        "2 responsible use of AI tools done with guidance or at small scale",
+        "3 responsible use of AI tools done independently with a clear result",
+        "4 responsible use of AI tools with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows responsible use of AI tools with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "copies_or_invents",
+      "description": "Admits copying text without credit or inventing quotes or facts.",
+      "job_related_reason": "Plagiarism and invented facts create legal and trust risk."
+    }
+  ],
+  "work_sample": {
+    "title": "Write a short guide",
+    "brief": "You get a fictional customer's three real questions and a few source pages. Write a 500 to 700 word guide that answers them. List your sources and mark any fact you could not confirm.",
+    "time_limit_minutes": 75,
+    "how_to_score": "Score a clear opening, correct use of sources, helpful structure, plain words, no invented facts, and honest notes about gaps. Run it through a plagiarism check if you have one."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "writing_quality",
+      "question": "Show me a piece you are proud of. What did you cut from the first draft and why?",
+      "good_answer_signs": [
+        "Can name specific cuts and the reader reason",
+        "Shows improvement in clarity"
+      ],
+      "weak_answer_signs": [
+        "Cannot say what changed",
+        "Only talks about word count"
+      ]
+    },
+    {
+      "criterion_id": "research_and_accuracy",
+      "question": "Tell me about a time you found a mistake in something you had published. What did you do?",
+      "good_answer_signs": [
+        "Corrected quickly and told readers",
+        "Changed their process"
+      ],
+      "weak_answer_signs": [
+        "Says it never happened",
+        "Hid the mistake"
+      ]
+    },
+    {
+      "criterion_id": "ai_use_judgment",
+      "question": "How do you use AI tools in your writing? Where do you not use them?",
+      "good_answer_signs": [
+        "Uses them for outlines and checks, verifies facts",
+        "Names clear limits"
+      ],
+      "weak_answer_signs": [
+        "Pastes output as is",
+        "Says they do not use any tool but cannot explain why"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Samples that read the same as other web text",
+    "Cannot name a source for any fact",
+    "Only past work is unnamed or uncheckable",
+    "Samples with errors that change meaning"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Freelance writer communities",
+    "Portfolio sites and personal blogs",
+    "Referrals from editors and marketers",
+    "Local college writing programs"
+  ],
+  "pay_research_hint": "Compare freelance per word or per piece rates and salaried postings for writers in your region from public postings and a published pay survey.",
+  "automation_note": "AI can draft outlines, summarize sources and suggest edits. A person owns the facts, the voice and the final text, and the byline."
+}

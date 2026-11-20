@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "role_id": "executive-assistant",
+  "title": "Executive Assistant",
+  "level": "mid",
+  "mission": "Protect the executive's time and keep the work moving by handling schedules, communication and follow up.",
+  "outcomes_90_days": [
+    "Take over the calendar and inbox triage with agreed rules within the first two weeks.",
+    "Prepare a weekly plan and a one page briefing before each important meeting.",
+    "Track action items from meetings and follow up until done.",
+    "Reduce scheduling conflicts and last minute changes."
+  ],
+  "criteria": [
+    {
+      "id": "calendar_and_priorities",
+      "name": "Calendar and priorities",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Manages a busy calendar with clear rules, protects focus time and handles conflicts.",
+      "evidence_needed": [
+        "Describes a system for scheduling",
+        "Example of resolving a hard conflict",
+        "Time zone handling"
+      ],
+      "keywords": [
+        "calendar",
+        "scheduling",
+        "priorities",
+        "time zones",
+        "meetings",
+        "travel",
+        "booking",
+        "agenda"
+      ],
+      "levels": [
+        "0 no evidence of calendar and priorities",
+        "1 names calendar and priorities but gives no example",
+        "2 calendar and priorities done with guidance or at small scale",
+        "3 calendar and priorities done independently with a clear result",
+        "4 calendar and priorities with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows calendar and priorities with real examples"
+    },
+    {
+      "id": "judgment_and_discretion",
+      "name": "Judgment and discretion",
+      "type": "must",
+      "weight": 20,
+      "min_level": 3,
+      "what_good_looks_like": "Handles private information carefully, decides what to escalate and what to handle.",
+      "evidence_needed": [
+        "Examples of decisions made without asking",
+        "Describes confidentiality habits",
+        "Says no politely"
+      ],
+      "keywords": [
+        "confidential",
+        "discretion",
+        "judgment",
+        "escalate",
+        "decision",
+        "trust",
+        "sensitive",
+        "gatekeeping"
+      ],
+      "levels": [
+        "0 no evidence of judgment and discretion",
+        "1 names judgment and discretion but gives no example",
+        "2 judgment and discretion done with guidance or at small scale",
+        "3 judgment and discretion done independently with a clear result",
+        "4 judgment and discretion with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows judgment and discretion with real examples"
+    },
+    {
+      "id": "written_communication",
+      "name": "Writing for the executive",
+      "type": "must",
+      "weight": 16,
+      "min_level": 2,
+      "what_good_looks_like": "Writes short, polite and clear emails and notes, and matches the executive's voice.",
+      "evidence_needed": [
+        "Sample email is short and clear",
+        "Drafts for others",
+        "Proofreads carefully"
+      ],
+      "keywords": [
+        "email",
+        "drafting",
+        "correspondence",
+        "minutes",
+        "briefing",
+        "proofreading",
+        "communication",
+        "notes"
+      ],
+      "levels": [
+        "0 no evidence of writing for the executive",
+        "1 names writing for the executive but gives no example",
+        "2 writing for the executive done with guidance or at small scale",
+        "3 writing for the executive done independently with a clear result",
+        "4 writing for the executive with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows writing for the executive with real examples"
+    },
+    {
+      "id": "follow_up_system",
+      "name": "Follow up system",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Tracks open items and reminds people without being pushy.",
+      "evidence_needed": [
+        "Describes a tracker and reminders",
+        "Example of closing a stalled project",
+        "Weekly review"
+      ],
+      "keywords": [
+        "action items",
+        "follow up",
+        "tracker",
+        "reminders",
+        "project",
+        "deadline",
+        "asana",
+        "notion"
+      ],
+      "levels": [
+        "0 no evidence of follow up system",
+        "1 names follow up system but gives no example",
+        "2 follow up system done with guidance or at small scale",
+        "3 follow up system done independently with a clear result",
+        "4 follow up system with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows follow up system with real examples"
+    },
+    {
+      "id": "tools_fluency",
+      "name": "Tools fluency",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Works in office tools and learns new ones quickly, including AI tools used with care.",
+      "evidence_needed": [
+        "Names tools and automations set up",
+        "Handles expenses or travel tools",
+        "Checks AI output"
+      ],
+      "keywords": [
+        "google workspace",
+        "microsoft 365",
+        "slack",
+        "zoom",
+        "expense",
+        "travel",
+        "automation",
+        "ai tools"
+      ],
+      "levels": [
+        "0 no evidence of tools fluency",
+        "1 names tools fluency but gives no example",
+        "2 tools fluency done with guidance or at small scale",
+        "3 tools fluency done independently with a clear result",
+        "4 tools fluency with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows tools fluency with real examples"
+    },
+    {
+      "id": "initiative_and_ownership",
+      "name": "Initiative",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Anticipates needs and solves small problems before being asked.",
+      "evidence_needed": [
+        "Example of an improvement started on their own",
+        "Prepared for a meeting before asked",
+        "Takes responsibility for mistakes"
+      ],
+      "keywords": [
+        "proactive",
+        "initiative",
+        "improved",
+        "anticipated",
+        "organized",
+        "process",
+        "ownership",
+        "prepared"
+      ],
+      "levels": [
+        "0 no evidence of initiative and ownership",
+        "1 names initiative and ownership but gives no example",
+        "2 initiative and ownership done with guidance or at small scale",
+        "3 initiative and ownership done independently with a clear result",
+        "4 initiative and ownership with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows initiative and ownership with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    },
+    {
+      "id": "hours_fit",
+      "question": "Can the person work the hours and time zone overlap the role needs?",
+      "kind": "soft"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "shares_private_info",
+      "description": "Describes sharing a manager's private information casually.",
+      "job_related_reason": "The role handles confidential information and trust is essential."
+    }
+  ],
+  "work_sample": {
+    "title": "Plan a hard week",
+    "brief": "You get a fictional executive's calendar for one week with 4 conflicts, an unconfirmed trip, 30 unread emails and a list of 5 requests. Produce a resolved calendar, an email triage list (reply, delegate, drop) and short draft replies to two emails.",
+    "time_limit_minutes": 60,
+    "how_to_score": "Score conflicts resolved with reasons, sensible priorities, judgment on what to delegate or ask, polite and short drafts, and questions raised."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "judgment_and_discretion",
+      "question": "Tell me about a time you had to decide something without asking your manager. What did you decide?",
+      "good_answer_signs": [
+        "Chose based on known preferences and risk",
+        "Told the manager afterward"
+      ],
+      "weak_answer_signs": [
+        "Always asked about everything",
+        "Never asked anything"
+      ]
+    },
+    {
+      "criterion_id": "calendar_and_priorities",
+      "question": "Two executives want the same hour. How do you handle it?",
+      "good_answer_signs": [
+        "Looks at priority and flexibility",
+        "Offers alternatives"
+      ],
+      "weak_answer_signs": [
+        "Picks the louder person",
+        "Says it is not their job"
+      ]
+    },
+    {
+      "criterion_id": "follow_up_system",
+      "question": "How do you keep track of what others owe your manager?",
+      "good_answer_signs": [
+        "Tracker with dates and reminders",
+        "Escalation when stuck"
+      ],
+      "weak_answer_signs": [
+        "Relies on memory",
+        "Never follows up"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Talks about former bosses in detail they should keep private",
+    "Typos in application documents",
+    "Cannot describe any system",
+    "Resists doing small tasks"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Referrals from other executives",
+    "Assistant professional associations",
+    "Virtual assistant communities",
+    "Former office managers"
+  ],
+  "pay_research_hint": "Check pay in current postings for executive or personal assistants in your region and a published pay survey. Note whether the role includes travel, evenings or personal tasks.",
+  "automation_note": "AI can triage email, draft replies and summarize meetings. Scheduling tools can find times. A person must protect privacy and make judgment calls."
+}

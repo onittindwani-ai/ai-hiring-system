@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "role_id": "web-designer",
+  "title": "Web Designer",
+  "level": "mid",
+  "mission": "Design clear, attractive pages that help visitors understand the business and take the next step.",
+  "outcomes_90_days": [
+    "Redesign the key pages with a clear message, mobile layout and a main action.",
+    "Create a simple design system with colors, type, buttons and spacing.",
+    "Hand over designs the developer can build without guessing.",
+    "Improve one measurable result such as form submissions, as agreed."
+  ],
+  "criteria": [
+    {
+      "id": "visual_design",
+      "name": "Visual design skill",
+      "type": "must",
+      "weight": 22,
+      "min_level": 3,
+      "what_good_looks_like": "Creates clear hierarchy, spacing and type, and a look that fits the brand.",
+      "evidence_needed": [
+        "Portfolio shows consistent hierarchy and spacing",
+        "Explains choices",
+        "Looks good on small screens"
+      ],
+      "keywords": [
+        "figma",
+        "typography",
+        "layout",
+        "color",
+        "design system",
+        "responsive",
+        "mobile",
+        "portfolio"
+      ],
+      "levels": [
+        "0 no evidence of visual design skill",
+        "1 names visual design skill but gives no example",
+        "2 visual design skill done with guidance or at small scale",
+        "3 visual design skill done independently with a clear result",
+        "4 visual design skill with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows visual design skill with real examples"
+    },
+    {
+      "id": "ux_and_clarity",
+      "name": "Clear user experience",
+      "type": "must",
+      "weight": 20,
+      "min_level": 2,
+      "what_good_looks_like": "Designs for the visitor's goal, with simple navigation and one main action per page.",
+      "evidence_needed": [
+        "Describes the user and the main task",
+        "Explains how they tested a design",
+        "Simplified a flow"
+      ],
+      "keywords": [
+        "ux",
+        "user flow",
+        "wireframe",
+        "usability",
+        "navigation",
+        "conversion",
+        "user research",
+        "prototype"
+      ],
+      "levels": [
+        "0 no evidence of clear user experience",
+        "1 names clear user experience but gives no example",
+        "2 clear user experience done with guidance or at small scale",
+        "3 clear user experience done independently with a clear result",
+        "4 clear user experience with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows clear user experience with real examples"
+    },
+    {
+      "id": "accessibility_basics",
+      "name": "Accessible design basics",
+      "type": "must",
+      "weight": 14,
+      "min_level": 2,
+      "what_good_looks_like": "Uses readable contrast, text sizes and focus states, and designs for keyboard and screen readers.",
+      "evidence_needed": [
+        "Names contrast and size checks",
+        "Alt text and labels considered",
+        "Describes testing with a tool"
+      ],
+      "keywords": [
+        "accessibility",
+        "wcag",
+        "contrast",
+        "alt text",
+        "keyboard",
+        "screen reader",
+        "focus",
+        "aria"
+      ],
+      "levels": [
+        "0 no evidence of accessible design basics",
+        "1 names accessible design basics but gives no example",
+        "2 accessible design basics done with guidance or at small scale",
+        "3 accessible design basics done independently with a clear result",
+        "4 accessible design basics with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows accessible design basics with real examples"
+    },
+    {
+      "id": "handoff_and_collaboration",
+      "name": "Handoff to development",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Prepares files, notes and states for developers and works through questions.",
+      "evidence_needed": [
+        "Describes the handoff method",
+        "Responsive behavior documented",
+        "Works with developers"
+      ],
+      "keywords": [
+        "handoff",
+        "developer",
+        "specs",
+        "components",
+        "design tokens",
+        "html",
+        "css",
+        "webflow"
+      ],
+      "levels": [
+        "0 no evidence of handoff to development",
+        "1 names handoff to development but gives no example",
+        "2 handoff to development done with guidance or at small scale",
+        "3 handoff to development done independently with a clear result",
+        "4 handoff to development with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows handoff to development with real examples"
+    },
+    {
+      "id": "content_and_message_sense",
+      "name": "Content and message sense",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Understands that the words come first, works with copy and does not use filler text.",
+      "evidence_needed": [
+        "Example of changing design after writing a clear message",
+        "Edits headlines",
+        "Works with a writer"
+      ],
+      "keywords": [
+        "copy",
+        "message",
+        "headline",
+        "content",
+        "landing page",
+        "calls to action",
+        "brand",
+        "structure"
+      ],
+      "levels": [
+        "0 no evidence of content and message sense",
+        "1 names content and message sense but gives no example",
+        "2 content and message sense done with guidance or at small scale",
+        "3 content and message sense done independently with a clear result",
+        "4 content and message sense with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows content and message sense with real examples"
+    },
+    {
+      "id": "speed_and_practicality",
+      "name": "Practical choices",
+      "type": "nice",
+      "weight": 16,
+      "what_good_looks_like": "Knows images and effects affect speed, and chooses simple options that can be maintained.",
+      "evidence_needed": [
+        "Mentions page speed and image sizes",
+        "Uses existing components",
+        "Knows tool limits"
+      ],
+      "keywords": [
+        "page speed",
+        "performance",
+        "images",
+        "lightweight",
+        "maintainable",
+        "cms",
+        "wordpress",
+        "webflow"
+      ],
+      "levels": [
+        "0 no evidence of practical design choices",
+        "1 names practical design choices but gives no example",
+        "2 practical design choices done with guidance or at small scale",
+        "3 practical design choices done independently with a clear result",
+        "4 practical design choices with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows practical design choices with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "copied_portfolio",
+      "description": "Presents another designer's work as their own.",
+      "job_related_reason": "Portfolio honesty shows whether the work samples can be trusted."
+    }
+  ],
+  "work_sample": {
+    "title": "Redesign one page",
+    "brief": "You get a fictional small business home page screenshot and a short brief. Produce a mobile and a desktop design for the top part of the page, list 5 changes you made and why, and note what you would test.",
+    "time_limit_minutes": 90,
+    "how_to_score": "Score clear hierarchy, one main action, readable text sizes, contrast, reasoned changes, and practical, buildable choices."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "ux_and_clarity",
+      "question": "Pick a design from your portfolio. Who was it for and what was it supposed to help them do?",
+      "good_answer_signs": [
+        "Names the visitor and goal",
+        "Describes a result or a test"
+      ],
+      "weak_answer_signs": [
+        "Describes only looks",
+        "Cannot name the goal"
+      ]
+    },
+    {
+      "criterion_id": "accessibility_basics",
+      "question": "How do you check that your design is readable for everyone?",
+      "good_answer_signs": [
+        "Uses contrast tools and size rules",
+        "Considers keyboard and screen readers"
+      ],
+      "weak_answer_signs": [
+        "Says it looks fine to them",
+        "Never heard of the standards"
+      ]
+    },
+    {
+      "criterion_id": "handoff_and_collaboration",
+      "question": "What do developers ask you for most often, and how do you prepare for it?",
+      "good_answer_signs": [
+        "Spacing, states and responsive rules",
+        "Makes components"
+      ],
+      "weak_answer_signs": [
+        "Sends flat images only",
+        "Cannot give an example"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Portfolio has only unclear or unfinished work",
+    "Uses placeholder text throughout",
+    "Dismisses mobile or accessibility",
+    "Cannot say what they personally did on team projects"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Portfolio platforms",
+    "Design communities",
+    "Referrals from developers",
+    "Freelance directories"
+  ],
+  "pay_research_hint": "Check salary and freelance rates in several current postings and a published pay survey for designers in your region. Consider project pricing for a one time redesign.",
+  "automation_note": "AI can generate layout ideas, copy variants and variations. A person decides hierarchy, brand taste, accessibility and what actually helps visitors."
+}

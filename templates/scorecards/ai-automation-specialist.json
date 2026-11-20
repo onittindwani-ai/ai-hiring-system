@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "role_id": "ai-automation-specialist",
+  "title": "AI Automation Specialist",
+  "level": "mid",
+  "mission": "Find repetitive work in the business and replace it with reliable, safe automations that people trust.",
+  "outcomes_90_days": [
+    "Map the five most repeated tasks in the first month with time spent for each.",
+    "Build and run the first automation with a human approval step and a log.",
+    "Write a one page guide for each automation so others can use and fix it.",
+    "Report hours saved and errors caught each month, with how they were measured."
+  ],
+  "criteria": [
+    {
+      "id": "process_mapping",
+      "name": "Process mapping",
+      "type": "must",
+      "weight": 18,
+      "min_level": 2,
+      "what_good_looks_like": "Understands how work actually runs, finds steps to automate and the steps that need a person.",
+      "evidence_needed": [
+        "Describes how they interviewed staff and mapped steps",
+        "Time or error figures used",
+        "Names what they chose not to automate"
+      ],
+      "keywords": [
+        "process mapping",
+        "workflow",
+        "requirements",
+        "interviews",
+        "time study",
+        "bottleneck",
+        "sop",
+        "audit"
+      ],
+      "levels": [
+        "0 no evidence of process mapping",
+        "1 names process mapping but gives no example",
+        "2 process mapping done with guidance or at small scale",
+        "3 process mapping done independently with a clear result",
+        "4 process mapping with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows process mapping with real examples"
+    },
+    {
+      "id": "building_automations",
+      "name": "Building automations",
+      "type": "must",
+      "weight": 22,
+      "min_level": 3,
+      "what_good_looks_like": "Builds working automations with tools such as no code platforms, scripts or AI models and handles failures.",
+      "evidence_needed": [
+        "Names tools and examples that ran in production",
+        "Error handling and retries",
+        "Costs counted"
+      ],
+      "keywords": [
+        "zapier",
+        "make",
+        "n8n",
+        "python",
+        "api",
+        "webhook",
+        "prompt",
+        "automation"
+      ],
+      "levels": [
+        "0 no evidence of building automations",
+        "1 names building automations but gives no example",
+        "2 building automations done with guidance or at small scale",
+        "3 building automations done independently with a clear result",
+        "4 building automations with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows building automations with real examples"
+    },
+    {
+      "id": "ai_judgment_and_safety",
+      "name": "AI judgment and safety",
+      "type": "must",
+      "weight": 20,
+      "min_level": 3,
+      "what_good_looks_like": "Knows where AI is wrong, adds human review, protects data and tests on real examples.",
+      "evidence_needed": [
+        "Describes testing with examples",
+        "Human approval steps",
+        "Data privacy awareness"
+      ],
+      "keywords": [
+        "human in the loop",
+        "evaluation",
+        "hallucination",
+        "privacy",
+        "testing",
+        "guardrails",
+        "logging",
+        "review"
+      ],
+      "levels": [
+        "0 no evidence of AI judgment and safety",
+        "1 names AI judgment and safety but gives no example",
+        "2 AI judgment and safety done with guidance or at small scale",
+        "3 AI judgment and safety done independently with a clear result",
+        "4 AI judgment and safety with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows AI judgment and safety with real examples"
+    },
+    {
+      "id": "communication_and_training",
+      "name": "Communication and training",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Explains automations to non technical staff and writes simple guides.",
+      "evidence_needed": [
+        "Shows a guide or video",
+        "Example of training a team",
+        "Handles pushback from staff"
+      ],
+      "keywords": [
+        "documentation",
+        "training",
+        "guide",
+        "explained",
+        "adoption",
+        "change management",
+        "support",
+        "handoff"
+      ],
+      "levels": [
+        "0 no evidence of communication and training",
+        "1 names communication and training but gives no example",
+        "2 communication and training done with guidance or at small scale",
+        "3 communication and training done independently with a clear result",
+        "4 communication and training with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows communication and training with real examples"
+    },
+    {
+      "id": "measurement_of_results",
+      "name": "Measuring results",
+      "type": "nice",
+      "weight": 14,
+      "what_good_looks_like": "Measures time saved and quality before and after, and reports honestly when it did not work.",
+      "evidence_needed": [
+        "Before and after numbers",
+        "Honest account of a failed automation",
+        "Cost versus savings"
+      ],
+      "keywords": [
+        "roi",
+        "hours saved",
+        "metrics",
+        "before and after",
+        "cost",
+        "quality",
+        "errors",
+        "dashboard"
+      ],
+      "levels": [
+        "0 no evidence of measuring results",
+        "1 names measuring results but gives no example",
+        "2 measuring results done with guidance or at small scale",
+        "3 measuring results done independently with a clear result",
+        "4 measuring results with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows measuring results with real examples"
+    },
+    {
+      "id": "curiosity_and_pace",
+      "name": "Curiosity and steady pace",
+      "type": "nice",
+      "weight": 12,
+      "what_good_looks_like": "Tries new tools in small, safe tests and keeps what works.",
+      "evidence_needed": [
+        "Examples of testing new tools",
+        "Keeps notes on what was learned",
+        "Shares tips with others"
+      ],
+      "keywords": [
+        "experiment",
+        "pilot",
+        "learning",
+        "tool",
+        "tested",
+        "newsletter",
+        "community",
+        "open source"
+      ],
+      "levels": [
+        "0 no evidence of curiosity and steady pace",
+        "1 names curiosity and steady pace but gives no example",
+        "2 curiosity and steady pace done with guidance or at small scale",
+        "3 curiosity and steady pace done independently with a clear result",
+        "4 curiosity and steady pace with strong results, and improved the method or taught others"
+      ],
+      "jev_question": "Rate how strongly the text shows curiosity and steady pace with real examples"
+    }
+  ],
+  "gates": [
+    {
+      "id": "work_authorization",
+      "question": "Can the person legally work in the country of the role?",
+      "kind": "hard"
+    }
+  ],
+  "deal_breakers": [
+    {
+      "id": "no_human_review",
+      "description": "Wants automations to send messages, move money or reject people with no human check.",
+      "job_related_reason": "Unchecked automation can harm customers and employees and break rules."
+    }
+  ],
+  "work_sample": {
+    "title": "Design one automation",
+    "brief": "You get a fictional description of a manual task (a small business answering booking questions and logging jobs). Write a one page plan: the steps, which are automated, where a person approves, the tools you would use, failure cases and how to measure success. Optionally build a small working prototype with fake data.",
+    "time_limit_minutes": 75,
+    "how_to_score": "Score a clear map, a safe human approval step, failure handling, data care, cost thinking, honest limits and measurable success."
+  },
+  "interview_questions": [
+    {
+      "criterion_id": "process_mapping",
+      "question": "Tell me about a task you automated. How did you decide it was worth it?",
+      "good_answer_signs": [
+        "Counted time and error cost",
+        "Checked with the people doing the task"
+      ],
+      "weak_answer_signs": [
+        "Automated because the tool existed",
+        "Cannot give numbers"
+      ]
+    },
+    {
+      "criterion_id": "ai_judgment_and_safety",
+      "question": "What would you never let an AI do without a person checking, and why?",
+      "good_answer_signs": [
+        "Names money, people decisions and customer promises",
+        "Explains the harm"
+      ],
+      "weak_answer_signs": [
+        "Says AI can be trusted",
+        "No limits"
+      ]
+    },
+    {
+      "criterion_id": "building_automations",
+      "question": "Describe an automation that broke in production. What happened and what did you change?",
+      "good_answer_signs": [
+        "Names the cause, a fix and a monitoring step",
+        "Informed users"
+      ],
+      "weak_answer_signs": [
+        "Cannot give a case",
+        "Blames the tool only"
+      ]
+    }
+  ],
+  "red_flags": [
+    "Only demos, nothing in daily use",
+    "Cannot say what data went where",
+    "Promises large savings without a way to measure",
+    "Keeps secrets or credentials in shared documents"
+  ],
+  "sourcing_channels": [
+    "Open job boards (posting by you)",
+    "Automation and no code communities",
+    "Freelance platforms and agency partners",
+    "Public project showcases and open source repositories",
+    "Referrals from operations leaders"
+  ],
+  "pay_research_hint": "Check current postings for automation, operations technology and AI roles in your region and a published pay survey. Consider project based pricing from freelancers for a first build.",
+  "automation_note": "This role itself is about automation, so ask what remains human: choosing what to automate, owning risk and training people. Part of the build can be done with AI tools under review."
+}
